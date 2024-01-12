@@ -1,0 +1,49 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-image: url("falling-astronaut-illustration-vector_113398-639.avifs");
+}
+
+.navbar{
+    background-color: rgb(18, 18, 18);
+    border-radius: 2px;
+    height: 60px;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin:12px 20px;
+}
+
+.navbar ul{
+    overflow:auto;
+}
+.navbar li a{
+    padding:3px 3px;
+    text-decoration: none;
+    color:rgb(73, 68, 83);
+}
+/* .search{ 
+    float:right;
+    color: whitesmoke;
+     padding: 10px 20px; 
+} */
+
+.navbar input{
+    border:1px solid black;
+    border-radius: 10px;
+    padding:5px;
+    width:135px;
+}
+.navbar li a:hover{
+    color:rgb(250, 79, 79)
+
+}
+
+.body {
+    background-image: url("istockphoto-1136131744-640x640.jpg");
+    color:aliceblue;
+
+}
