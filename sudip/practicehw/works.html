@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+        text-decoration: none;
+    }
+
+    nav {
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
+    a {
+        color: black;
+        padding: 8px;
+    }
+
+    .active {
+        font-weight: bold;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .paragraph1 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .photo2,
+    .photo4,
+    .photo3 {
+        width: 30%;
+        margin-left: 2%;
+    }
+
+    .p1,
+    .p2,
+    .p3 {
+        display: flex; /* Add this line to create a flex container */
+        border: 2px solid black;
+        max-width: 400px;
+    }
+
+    .p2 {
+        margin-left: 2%; /* Adjust margin */
+    }
+
+    .p3 {
+        margin-left: 2%; /* Adjust margin */
+        margin-bottom: 0; /* Remove margin-bottom */
+    }
+</style>
+<body>
+    <nav>
+        <a href="index.html">01 : Home |</a>
+        <a href="#" class="active">02 : Works |</a>
+        <a href="#">03 : About me |</a>
+        <a href="#">04 : Contact |</a>
+        <a href="#">05 : Components |</a>
+    </nav><br><br>
+    <h1>| 02 : Works |</h1><br>
+    <p class="paragraph1">Nuata racaaror, vavanus vestzourum, cant an scesertoque batracies, nasa nune putvanar dagura. do<br>sodales arcu sapien in nisi, Quisque libero enin, mattis non Lorem ipsum dolor sit amet.</p><br><br><br><br>
+    <div class="p1">
+        <img src="./photo2.jpeg" alt="" class="photo2">
+        <p class="tex1">001/006<br>Lorem, ipsum dolor.<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </div>
+    <div class="p2">
+        <img src="./photo4.avif" alt="" class="photo4">
+        <p class="text2">002/006<br>Lorem, ipsum dolor.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium saepe accusantium?</p>
+    </div>
+    <div class="p3">
+        <img src="./photo3.avif" alt="" class="photo3">
+        <p class="text3">003/006<br>Lorem, ipsum dolor.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi harum suscipit quibusdam sit odit.</p>
+    </div>
+</body>
+</html>
