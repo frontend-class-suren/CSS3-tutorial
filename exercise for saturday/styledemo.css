@@ -47,10 +47,10 @@ html, body{
     width: 400px;
     height: 600px;
 }
-.img{
+/*.img{
     /* background-color: darkgrey; */
     /* padding: 100px 100px; */
-}
+ 
 .img img{
     width: 100%;
     height: 20%;

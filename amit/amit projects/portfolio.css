@@ -1,0 +1,136 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.navBar{
+    height:20px;
+    background-color: rgba(197, 247, 247, 0.39);
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navBar h4{
+    margin: 10px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header a{
+    text-decoration: none;
+    color:rgb(66, 93, 84);
+}
+
+.nav-header a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+
+.nav-log img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+
+}
+
+.nav-header h4 img {
+    height: 16px;
+    width:16px;
+}
+
+.smlnav {
+    height:1px;
+    background-color:rgb(250, 59, 59);
+    color:white;
+    padding: 18px 30px;
+    display: flex;
+}
+
+.smlnav a{
+    padding-left:25px;
+    text-decoration: none;
+    color:white;
+}
+.smlnav a:hover{
+    color:rgb(15, 14, 14);
+}   
+
+/* body part! */
+
+.imag {
+    height: 300px;
+    width:300px;
+    /* background-color: antiquewhite; */
+}
+
+.imag img{
+    height:310px;
+    width:300px;
+}
+
+
+.cont {
+    height:275px;
+    width:255px;
+    background-color: rgb(171, 162, 162);
+    margin-top: 30px;
+    padding-left: 15%;
+    padding-top: 20px;
+}
+
+
+.pdff{
+    height:75px;
+    width:300px;
+    margin-top:30px;
+    background-color:rgb(130, 0, 0);
+}
+
+.pdff{
+    padding-top: 3rem;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    margin-left:50px;
+}
+
+.right {
+    margin-left: 10%;
+}
+.fnam {
+    padding-top:30px;
+    /* padding-right: 20rem; */
+    border-bottom: 1px solid black;
+}
+
+.para{
+    padding-top:10px;
+    border-bottom: 1px solid black;
+    
+}
+
+.list{
+    padding-top: 10px;
+}
+
