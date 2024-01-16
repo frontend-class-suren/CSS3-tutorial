@@ -38,6 +38,9 @@ html, body {
 }
 
 .nav-header a:hover{
+    border-radius: 15%;
+    border: 1px solid black;
+    background-color: bisque;
     color: rgb(0, 0, 0);
 }
 
