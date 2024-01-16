@@ -46,6 +46,9 @@ html, body{
     color:rgb(176, 207, 255)
 
 }
+.amit {
+    color:rgb(148, 246, 255)
+}
 
 .amit h1 {  
     font-size: 5rem;
@@ -54,4 +57,7 @@ html, body{
 .amit p{
     font-size:30px;
     padding-top: 10px;
+}
+.amit span {
+    color:antiquewhite;
 }
