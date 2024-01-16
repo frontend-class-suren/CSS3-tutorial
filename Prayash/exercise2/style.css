@@ -1,0 +1,20 @@
+.Header{
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 10%;
+}
+.second-box{
+    background-color: coral;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.third-box{
+    background-color:chocolate;
+    display: flex;
+}
+.third-box p{
+    background-color: darkred;
+}
