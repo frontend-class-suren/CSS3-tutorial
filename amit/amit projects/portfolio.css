@@ -34,9 +34,9 @@ html, body{
 }
 
 .nav-header a:hover{
-    border-radius: 15%;
+    border-radius: 5%;
     border: 1px solid black;
-    background-color: bisque;
+    background-color: rgb(173, 220, 244);
     color: rgb(0, 0, 0);
 }
 
@@ -119,7 +119,7 @@ html, body{
 }
 
 .right {
-    margin-left: 10%;
+    margin-right:10%;
 }
 .fnam {
     padding-top:30px;
