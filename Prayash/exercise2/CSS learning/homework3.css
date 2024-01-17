@@ -30,7 +30,7 @@
     margin: 40px; 
 }
 .box .img img{
-    width: 800px;
+    width: 850px;
     border-radius: 10px;
     margin: 40px
 }
@@ -38,4 +38,7 @@
     margin: 100px;
     color: gold;
     font: bold;
+}
+.demo{
+    display: flex;
 }
