@@ -1,0 +1,35 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+}
+
+.navBar {
+    display:flex;
+    justify-content: space-between;
+    height:100px;
+    width:100%;
+    background-color: rgb(137, 137, 137);
+
+}
+.logo {
+    margin-top: 22px;
+    margin-left: 40px;
+}
+.logo img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+
+.navHead{
+    box-sizing: border-box;
+    /* display: flex; */
+    margin-top:39px;
+    margin-right: 15%;
+}
