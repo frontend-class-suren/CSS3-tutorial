@@ -7,6 +7,9 @@
 }
 .nav-bar{
     display: flex;
+    justify-content: space-between;
+    background-color: darkred;
+    padding: 8px 10px;
 }
 .logo img{
     width: 80px;
@@ -14,10 +17,11 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color:blueviolet
+    color: gold;
 }
 .box{
     display: flex;
+    background-color: dimgray;
 }
 .box .img{
     /* position: relative; */
@@ -26,10 +30,12 @@
     margin: 40px; 
 }
 .box .img img{
-    width: 400px;
+    width: 800px;
     border-radius: 10px;
-    margin: 40px;
+    margin: 40px
 }
 .features{
-    margin-left: 70%;
+    margin: 100px;
+    color: gold;
+    font: bold;
 }
