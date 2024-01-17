@@ -7,6 +7,7 @@
 }
 .nav-bar{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: darkred;
     padding: 8px 10px;
@@ -41,4 +42,21 @@
 }
 .demo{
     display: flex;
+    background-color:black;
 }
+.description{
+    color: aliceblue;
+    margin: 16px;
+}
+.demonstration{
+}
+.apperance{
+    display: flex;
+    width: 400px;
+    border-radius: 10px;
+}
+.overview{}
+.testimonial{}
+.footer{}
+.durability{}
+featured{}
