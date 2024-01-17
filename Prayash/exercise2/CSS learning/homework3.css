@@ -2,24 +2,34 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    width: 100%;
+}
 .nav-bar{
     display: flex;
 }
-.img img{
+.logo img{
     width: 80px;
-    height: auto;
-    margin-right: 20px;
 }
-.nav-header{
-    /* text-align: right; */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:blueviolet
 }
 .box{
     display: flex;
 }
-.lamborghini{
-    /* width: 200px;
-    margin-right: 40px; */
+.box .img{
+    /* position: relative; */
+    /* width: 100px; */
+    margin-top: 20px;
+    margin: 40px; 
+}
+.box .img img{
+    width: 400px;
+    border-radius: 10px;
+    margin: 40px;
 }
 .features{
-    /* margin: 20%; */
+    margin-left: 70%;
 }
