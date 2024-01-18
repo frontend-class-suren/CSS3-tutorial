@@ -16,6 +16,10 @@ html, body {
     height:100px;
     width:100%;
     background-color: rgb(137, 137, 137);
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 
 }
 .logo {
@@ -32,10 +36,15 @@ html, body {
 .navHead{
     box-sizing: border-box;
     /* display: flex; */
-    margin-top:39px;
+    margin-top:20px;
     margin-right: 10%;
     
 }
+
+/* .navHead img {
+    height: 20px;
+    width:20px;
+} */
 
 .navHead a{
     height:50px;
@@ -58,6 +67,9 @@ input {
     border:1px solid black;
 }
 
+.whole {
+    background-color: rgb(218, 244, 244);;
+}
 /* navbar ends and container 1  starts here  */
 
 .container_1{
@@ -77,9 +89,9 @@ input {
     margin-top:30px;
     margin-bottom:30px;
     display:flex;
-    height:300px;
+    height:250px;
     width:100%;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 
 .feature_1 {
@@ -87,12 +99,12 @@ input {
     margin-top: 37px;
     height:225px;
     width:400px;
-    background-color: aqua;
-    border:1px solid black;
+    background-color: rgb(218, 244, 244);
+    /* border:1px solid black; */
 }
 
 .feature_1 p {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
 }
 
@@ -111,12 +123,12 @@ input {
     margin-top: 37px;
     height:225px;
     width:400px;
-    background-color: aqua;
-    border:1px solid black;
+    background-color: rgb(218, 244, 244);
+    /* border:1px solid black; */
 }
 
 .feature_2 p {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
 }
 
@@ -135,13 +147,13 @@ input {
     margin-top: 37px;
     height:225px;
     width:400px;
-    background-color: aqua;
-    border:1px solid black;
+    background-color: rgb(218, 244, 244);
+    /* border:1px solid black; */
 }
 
 
 .feature_3 p {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
 }
 
@@ -160,9 +172,10 @@ input {
 .container_3 {
     height:700px;
     width:100%;
-    background-color: blanchedalmond;
+    background-color:rgb(218, 244, 244); ;
     border:1px solid black;
-    margin-bottom: 30px;
+    border-bottom: none;
+    /* margin-bottom: 30px; */
 }
 
 .topic {
@@ -241,7 +254,7 @@ input {
 }
 
 .para1 {
-
+    text-align: center;
     margin-left: 63px;
     margin-top: 55px;
     height:320px;
@@ -250,6 +263,7 @@ input {
 }
 
  .para2 {
+    text-align: center;
     margin-left: 63px;
     margin-top: 55px;
     height:320px;
@@ -260,6 +274,7 @@ input {
 
 
 .para3 {
+    text-align: center;
     margin-left: 63px;
     margin-top: 55px;
     height:320px;
@@ -268,6 +283,7 @@ input {
 }
 
 .para4 {
+    text-align: center;
     margin-left: 63px;
     margin-top: 55px;
     height:320px;
@@ -280,7 +296,7 @@ input {
 .container_4 {
     height:350px;
     width:100%;
-    background-color: rgb(156, 189, 194);
+    background-color: rgb(218, 244, 244);
     border:1px solid black;
     margin-bottom: 30px;
     display: flex;
