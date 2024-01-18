@@ -8,6 +8,8 @@ html, body {
     width:100%;
 }
 
+/* navbar starts here  */
+
 .navBar {
     display:flex;
     justify-content: space-between;
@@ -56,6 +58,8 @@ input {
     border:1px solid black;
 }
 
+/* navbar ends and container 1  starts here  */
+
 .container_1{
     height:500px;
     width:100%;
@@ -66,6 +70,8 @@ input {
     height:500px;
     width:100%;
 }
+
+/* container 1 ends and container 2 starts here */
 
 .container_2 {
     margin-top:30px;
@@ -85,6 +91,21 @@ input {
     border:1px solid black;
 }
 
+.feature_1 p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.feature_1 ul {
+    font-size: 20px;
+    padding:20px;
+}
+
+.feature_1 p, ul {
+    margin-left: 20px;
+    /* font-size: 20px; */
+}
+
 .feature_2 {
     margin-left: 75px;
     margin-top: 37px;
@@ -93,6 +114,22 @@ input {
     background-color: aqua;
     border:1px solid black;
 }
+
+.feature_2 p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.feature_2 ul {
+    font-size: 20px;
+    padding:20px;
+}
+
+.feature_2 p, ul {
+    margin-left: 20px;
+    /* font-size: 20px; */
+}
+
 .feature_3 {
     margin-left: 75px;
     margin-top: 37px;
@@ -102,8 +139,26 @@ input {
     border:1px solid black;
 }
 
+
+.feature_3 p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.feature_3 ul {
+    font-size: 20px;
+    padding:20px;
+}
+
+.feature_3 p, ul {
+    margin-left: 20px;
+    /* font-size: 20px; */
+}
+
+/* container 2 ends and container 3 starts here   */
+
 .container_3 {
-    height:900px;
+    height:700px;
     width:100%;
     background-color: blanchedalmond;
     border:1px solid black;
@@ -119,6 +174,11 @@ input {
     display:flex;
 }
 
+.topic h1 {
+    padding-left: 45%;
+    padding-top: 22px;
+}
+
 .second_part {
     display:flex;
 }
@@ -126,51 +186,96 @@ input {
 .photo_1{
     margin-left: 63px;
     margin-top: 55px;
-    height:350px;
+    height:320px;
     width:300px;
     background-color: black;
 
+}
+
+.photo_1 img {
+    height:320px;
+    width:300px;
 }
 
 .photo_2 {
     margin-left:63px;
     margin-top: 55px;
-    height:350px;
+    height:320px;
     width:300px;
     background-color: black;
+}
+
+.photo_2 img {
+    height:320px;
+    width:300px;
 }
 
 .photo_3 {
     margin-left:63px;
     margin-top: 55px;
-    height:350px;
+    height:320px;
     width:300px;
     background-color: black;
 }
+.photo_3 img {
+    height:320px;
+    width:300px;
+}
+
 
 .photo_4 {
     margin-left:63px;
     margin-top: 55px;
-    height:350px;
+    height:320px;
     width:300px;
     background-color: black;
 }
-
-/* .container_4 {
-    margin-top: 40px;
-    margin-bottom: 30px;
-    height:350px;
-    width:100%;
-    background-color: blue;
+.photo_4 img {
+    height:320px;
+    width:300px;
 }
 
-.bar{
-    margin-left: 10%;
-    height:50px;
-    width:400px;
-    border:1px solid black;
-} */
+.paraghs {
+    display:flex;
+    /* flex-direction: column; */
+}
 
+.para1 {
+
+    margin-left: 63px;
+    margin-top: 55px;
+    height:320px;
+    width:300px;
+    /* background-color: black; */
+}
+
+ .para2 {
+    margin-left: 63px;
+    margin-top: 55px;
+    height:320px;
+    width:300px;
+    /* background-color: black; */
+
+}
+
+
+.para3 {
+    margin-left: 63px;
+    margin-top: 55px;
+    height:320px;
+    width:300px;
+    /* background-color: black; */
+}
+
+.para4 {
+    margin-left: 63px;
+    margin-top: 55px;
+    height:320px;
+    width:300px;
+    /* background-color: black;  */
+ } 
+
+ /* container 3 ends and container 4 starts here  */
 
 .container_4 {
     height:350px;
@@ -238,46 +343,84 @@ button {
     width:50px;
     height:50px;
     border-radius: 50%;
-    background-color: black;
+    /* background-color: black;  */
     margin-left: 200px;
     margin-top: 55px;
+    border:1px solid black;
+}
+
+.for_logo_1 img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
 }
 
 .for_logo_2 {
     width:50px;
     height:50px;
     border-radius: 50%;
-    background-color: black;
+    /* background-color: black; */
     margin-left: 90px;
     margin-top: 55px;
+    border:1px solid black;
+
 }
+
+.for_logo_2 img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+} 
+
 
 .for_logo_3 {
     width:50px;
     height:50px;
     border-radius: 50%;
-    background-color: black;
+    /* background-color: black; */
     margin-left: 90px;
     margin-top: 55px;
+    border:1px solid black;
+
+}
+
+.for_logo_3 img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
 }
 
 .for_logo_4 {
     width:50px;
     height:50px;
     border-radius: 50%;
-    background-color: black;
+    /* background-color: black; */
     margin-left: 90px;
     margin-top: 55px;
-}
+    border:1px solid black;
 
+}
+.for_logo_4 img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
 
 .for_logo_5 {
     width:50px;
     height:50px;
     border-radius: 50%;
-    background-color: black;
+    /* background-color: black; */
     margin-left: 90px;
     margin-top: 55px;
+    border:1px solid black;
+
+}
+
+.for_logo_5 img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
 }
 
 .paragraph {
