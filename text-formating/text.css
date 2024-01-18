@@ -81,9 +81,12 @@ html, body{
     text-align: center;
    
 }
-.hero-body p{
+/* .hero-body p{
     padding: 15px 20px;
     margin:10px
     word-spacing: 5px;
     letter-spacing: 4px;
-}
+    text-decoration: underline;
+    text-align:center;
+    
+} */
