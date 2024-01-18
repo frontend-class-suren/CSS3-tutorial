@@ -1,0 +1,29 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-container div{
+    margin: 10px;
+    background-color: blueviolet;
+    padding: 20px 30px;
+}
+.grid-row-start{
+    background-color: blanchedalmond;
+}
+#myDIV {
+    height:300px;
+    display: grid;
+    grid-area: 1 / 1 / span 2 / span 3;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  #myDIV div{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    
+  }
+  .item1 {
+    grid-row-start: span 3;
+  }
