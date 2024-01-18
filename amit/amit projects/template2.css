@@ -103,7 +103,7 @@ input {
 }
 
 .container_3 {
-    height:650px;
+    height:900px;
     width:100%;
     background-color: blanchedalmond;
     border:1px solid black;
@@ -126,7 +126,7 @@ input {
 .photo_1{
     margin-left: 63px;
     margin-top: 55px;
-    height:400px;
+    height:350px;
     width:300px;
     background-color: black;
 
@@ -135,7 +135,7 @@ input {
 .photo_2 {
     margin-left:63px;
     margin-top: 55px;
-    height:400px;
+    height:350px;
     width:300px;
     background-color: black;
 }
@@ -143,7 +143,7 @@ input {
 .photo_3 {
     margin-left:63px;
     margin-top: 55px;
-    height:400px;
+    height:350px;
     width:300px;
     background-color: black;
 }
@@ -151,7 +151,7 @@ input {
 .photo_4 {
     margin-left:63px;
     margin-top: 55px;
-    height:400px;
+    height:350px;
     width:300px;
     background-color: black;
 }
@@ -173,18 +173,19 @@ input {
 
 
 .container_4 {
-    height:300px;
+    height:350px;
     width:100%;
     background-color: rgb(156, 189, 194);
     border:1px solid black;
     margin-bottom: 30px;
+    display: flex;
 }
 
 .bar {
     margin-left: 40px;
     margin-top: 50px;
     height:30px;
-    width:30%;
+    width:400px;
     border: 1px solid black;
     display:flex;
 
@@ -207,7 +208,7 @@ input {
 .button {
    
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 50%;
 }
 
 button {
@@ -217,5 +218,90 @@ button {
     width:120px;
     font-size: 20px;
     border-radius: 20px;
+    /* margin-left: 20%; */
 
+}
+
+.for_first {
+    display:flex;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+.logos{
+    display: flex;
+}
+
+.for_logo_1 {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 200px;
+    margin-top: 55px;
+}
+
+.for_logo_2 {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 55px;
+}
+
+.for_logo_3 {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 55px;
+}
+
+.for_logo_4 {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 55px;
+}
+
+
+.for_logo_5 {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 55px;
+}
+
+.paragraph {
+    display:flex;
+}
+
+.para_1 {
+    height:175px;
+    width:260px;
+    border:1px solid black;
+    margin-left: 160px;
+    margin-top:50px;
+}
+.para_2 {
+    height:175px;
+    width:260px;
+    border:1px solid black;
+    margin-left: 40px;
+    margin-top:50px;
+}
+.para_3 {
+    height:175px;
+    width:260px;
+    border:1px solid black;
+    margin-left: 40px;
+    margin-top:50px;
 }
