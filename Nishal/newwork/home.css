@@ -90,7 +90,7 @@ li{
   display: flex;
 }
 .HEL{
-  border: 2px solid black;
+  border: 2px solid rgb(146, 8, 8);
   border-radius: 50%;
   width: 30px;
   height: 20px;
@@ -100,7 +100,7 @@ li{
 
 }
 .HEL2{
-  border: 2px solid black;
+  border: 2px solid rgb(193, 13, 13);
   border-radius: 50%;
   width: 30px;
   height: 20px;
@@ -108,7 +108,7 @@ li{
   margin: 1%;
 }
 .HEL3{
-  border: 2px solid black;
+  border: 2px solid rgba(167, 15, 15, 0.871);
   border-radius: 50%;
   width: 30px;
   height: 20px;
@@ -116,10 +116,158 @@ li{
   margin: 1%;
 }
 .HEL4{
-  border: 2px solid black;
+  border: 2px solid rgb(146, 5, 5);
   border-radius: 50%;
   width: 30px;
   height: 20px;
   size: 10px;
   margin: 1%;
+}
+.scontainer1{
+  display: flex;
+  gap: 45px;
+  margin-left: 5%;
+ 
+  
+}
+.scontainer11{
+  display: flex;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+.box1{
+  border: 2px solid rgb(170, 3, 3);
+  width: 150px;
+  height: 150px;
+  margin-left: 2%;
+}
+.box2{
+  border: 2px solid rgb(176, 14, 14);
+  width: 150px;
+  height: 150px;
+}
+.box3{
+  border: 2px solid rgb(221, 14, 14);
+  width: 150px;
+  height: 150px;
+  
+}
+.container3{
+  border: 2px solid rgb(154, 1, 1);
+  height:250px;
+  width: 650px;
+  
+}
+.container5{
+  border: 2px solid rgb(170, 3, 3);
+  width: 800px;
+  height: 250px;
+  display: flex;
+}
+.p{
+  font-size: 20px;
+  margin-left: 7%;
+}
+.scontainer2{
+  border: 2px solid rgb(159, 8, 8);
+  width: 800px;
+  height: 250px;
+  display: flex;
+}
+.containerm{
+  display: flex;
+}
+.containermm{
+  display: flex;
+  border: 2px solid rgb(184, 8, 8);
+ 
+}
+.boxx1{
+  border: 2px solid rgb(168, 5, 5);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+  margin-left: 7%;
+}
+.boxx2{
+  border: 2px solid rgb(201, 18, 18);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx3{
+  border: 2px solid rgb(166, 10, 10);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx4{
+  border: 2px solid rgb(155, 2, 2);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx5{
+  border: 2px solid rgb(148, 5, 5);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx6{
+  border: 2px solid rgb(185, 9, 9);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx7{
+  border: 2px solid rgb(179, 13, 13);
+  height: 150px;
+  width: 130px;
+  margin-top: 8%;
+}
+.container4{
+  border: 2px solid rgb(213, 24, 24);
+  height: 180px;
+}
+button{
+  padding: 10px;
+  width: 300px;
+  margin-left: 1%;
+}
+
+.boxxx1{
+  border: 2px solid rgb(150, 4, 4);
+  border-radius: 2px solid black;
+  width: 150px;
+  height: 200px;
+  margin-left: 2%;
+  bordf
+}
+.boxxx2{
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+}
+.boxxx3{
+  border: 2px solid rgb(117, 11, 11);
+  width: 150px;
+  height: 200px;
+  
+}
+.container6{
+  border: 2px solid rgb(202, 16, 16);
+  width: 800px;
+  height: 250px;
+  display: flex;
+  
+}
+.b1{
+  border: 2px solid rgb(192, 8, 8);
+  width: 15px;
+  height: 20px;
+}
+.b2{
+  border: 2px solid rgb(170, 16, 16);
+  width: 15px;
+  height: 20px;
 }
