@@ -15,11 +15,15 @@
 .logo img{
     width: 80px;
 }
-.header{
+a{
+color: gold;
+}
+/* .header{
     display: flex;
     justify-content: space-between;
-    color: gold;
-}
+    color: rgb(8, 8, 4);
+    align-items: center;
+} */
 .box{
     display: flex;
     background-color: dimgray;
@@ -28,12 +32,12 @@
     /* position: relative; */
     /* width: 100px; */
     margin-top: 20px;
-    margin: 40px; 
+    margin: 20px; 
 }
 .box .img img{
-    width: 850px;
+    width: 800px;
     border-radius: 10px;
-    margin: 40px
+    margin: 30px
 }
 .features{
     margin: 100px;
@@ -50,13 +54,30 @@
 }
 .demonstration{
 }
-.apperance{
+.row{
     display: flex;
-    width: 400px;
-    border-radius: 10px;
 }
+.image-box img{
+    width: 170px;
+    height: auto;
+    object-fit: cover;
+}
+.image-box{
+    /* overflow: hidden; */
+    margin: 50px 0;
+    height: 50px;
+    padding-right: 10px;
+}
+/* .image-box .col-2{
+    height: 50px;
+}
+.col-3{
+    height: 50px;
+} */
 .overview{}
-.testimonial{}
+.testimonial{
+    margin-top: 80%;
+}
 .footer{}
 .durability{}
-featured{}
+featured{} 
