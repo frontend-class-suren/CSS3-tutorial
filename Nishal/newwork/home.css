@@ -10,7 +10,7 @@ nav{
   width: 100%;
   height: 10%;
   display: flex;
-  border: 2px solid rgb(150, 11, 11);
+  border: 2px solid black;
   margin-top: 2px;
 }
 .logoo{
@@ -77,8 +77,8 @@ li{
 }
 .conn{
   border: 2px solid rgb(180, 9, 9);
-  width: 30%;
-  font-size: 30px;
+  width: 20%;
+  font-size: 20px;
   text-align: center;
   justify-content: center;
   padding: 25px;
@@ -90,9 +90,9 @@ li{
   display: flex;
 }
 .HEL{
-  border: 2px solid rgb(161, 9, 9);
+  border: 2px solid black;
   border-radius: 50%;
-  width: 50px;
+  width: 30px;
   height: 20px;
   size: 10px;
   margin: 1%;
@@ -100,25 +100,25 @@ li{
 
 }
 .HEL2{
-  border: 2px solid rgb(181, 12, 12);
+  border: 2px solid black;
   border-radius: 50%;
-  width: 50px;
+  width: 30px;
   height: 20px;
   size: 10px;
   margin: 1%;
 }
 .HEL3{
-  border: 2px solid rgb(174, 8, 8);
+  border: 2px solid black;
   border-radius: 50%;
-  width: 50px;
+  width: 30px;
   height: 20px;
   size: 10px;
   margin: 1%;
 }
 .HEL4{
-  border: 2px solid rgb(162, 10, 10);
+  border: 2px solid black;
   border-radius: 50%;
-  width: 50px;
+  width: 30px;
   height: 20px;
   size: 10px;
   margin: 1%;
