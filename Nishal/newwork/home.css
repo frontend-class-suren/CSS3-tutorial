@@ -271,3 +271,113 @@ button{
   width: 15px;
   height: 20px;
 }
+.containerm{
+  display: flex;
+}
+.containermm{
+  display: flex;
+  border: 2px solid rgb(140, 11, 11);
+ 
+}
+.boxx1{
+  border: 2px solid rgb(160, 7, 7);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+  margin-left: 7%;
+}
+.boxx2{
+  border: 2px solid rgb(166, 10, 10);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx3{
+  border: 2px solid rgb(134, 9, 9);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx4{
+  border: 2px solid rgb(175, 6, 6);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx5{
+  border: 2px solid rgb(155, 7, 7);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx6{
+  border: 2px solid rgb(166, 13, 13);
+  height: 150px;
+  width: 85px;
+  margin-top: 8%;
+}
+.boxx7{
+  border: 2px solid rgb(195, 15, 15);
+  height: 150px;
+  width: 130px;
+  margin-top: 8%;
+}
+.container4{
+  border: 2px solid rgb(154, 5, 5);
+  height: 180px;
+}
+button{
+  padding: 10px;
+  width: 300px;
+  margin-left: 1%;
+}
+.footer{
+  border: 2px solid rgb(172, 12, 12);
+  text-align: center;
+  font-size: 25px;
+}
+.boxxx1{
+  border: 2px solid rgb(135, 6, 6);
+  width: 250px;
+  height: 100px;
+  margin-left: 2%;
+}
+.boxxx2{
+  border: 2px solid rgb(156, 9, 9);
+  width: 250px;
+  height: 100px;
+}
+.boxxx3{
+  border: 2px solid rgb(167, 10, 10);
+  width: 250px;
+  height: 100px;
+}
+.container6{
+
+  display: flex;
+  margin-left: 20px;
+  margin-top: 32px;
+  gap: 10px;
+
+  
+}
+.b1{
+  border: 2px solid rgb(130, 9, 9);
+  width: 300px;
+  height: 80px;
+}
+.b2{
+  border: 2px solid rgb(161, 10, 10);
+  width: 80px;
+  height: 30px;
+}
+.b3{
+  border: 2px solid rgb(116, 6, 6);
+  width: 80px;
+  height: 30px;
+}
+.b4{
+  border: 2px solid rgb(129, 4, 4);
+  width: 80px;
+  height: 30px;
+}
