@@ -299,6 +299,7 @@ input {
     width:100%;
     background-color: rgb(218, 244, 244);
     border:1px solid black;
+    border-bottom: none;
     margin-bottom: 30px;
     display: flex;
 }
@@ -464,4 +465,10 @@ button {
     border:1px solid black;
     margin-left: 40px;
     margin-top:50px;
+}
+
+footer {
+    height:50px;
+    width:100%;
+    text-align: center;
 }
