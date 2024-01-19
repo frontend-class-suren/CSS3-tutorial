@@ -15,7 +15,7 @@ html, body {
     justify-content: space-between;
     height:100px;
     width:100%;
-    background-color: rgb(137, 137, 137);
+    background-color:rgb(153, 159, 159);
     position: sticky;
     top: 0px;
     right: 0px;
@@ -68,7 +68,7 @@ input {
 }
 
 .whole {
-    background-color: rgb(218, 244, 244);;
+    background-color: rgb(218, 244, 244);
 }
 /* navbar ends and container 1  starts here  */
 
