@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: #f5e0ba; /* Light peach */
+    background-color: #f5e0ba; 
 }
 
 nav {
     width: 100%;
     display: flex;
-    border-bottom: 2px solid #1a1a1a; /* Dark gray */
-    background-color: #ff6347; /* Tomato */
+    border-bottom: 2px solid #1a1a1a; 
+    background-color: #857b79; 
     position: sticky;
     top: 0;
 }
@@ -60,7 +60,7 @@ nav {
 .content {
     display: flex;
     gap: 50px;
-    border-bottom: 3px solid #1a1a1a;
+    border-bottom: 3px solid #685959;
     height: 150px;
     padding: 90px;
     margin-top: -5%;
@@ -69,10 +69,10 @@ nav {
 .c3,
 .c1,
 .c2 {
-    background-color: #ffffff; 
+    background-color: #627042; 
     padding: 15px;
     margin-left: 2%;
-    border: 3px solid #ff6347; 
+    border: 3px solid #837a78; 
     height: 110%;
     width: 30%;
 }
@@ -84,7 +84,7 @@ li {
 .models {
     border: 3px solid #1a1a1a; 
     width: 36%;
-    background-color: #ffff99; 
+    background-color: #727b81; 
     margin-left: 32%;
     padding: 20px;
     display: flex;
@@ -93,6 +93,7 @@ li {
 .mouse {
     width: 300px;
     height: 200px;
+    mar
 }
 
 .type1,
