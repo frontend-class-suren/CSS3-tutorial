@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    background-color:antiquewhite;
+    background-color:rgb(5, 161, 57);
 }
 nav{
     width: 100%;
@@ -175,7 +175,7 @@ color: black;
 
 .footer-social a:hover {
 color: palegreen;
-background-color: #333; 
+background-color: #281d1d; 
 
 }
 
