@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f5e0ba; /* Light peach */
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #1a1a1a; /* Dark gray */
+    background-color: #ff6347; /* Tomato */
+    position: sticky;
+    top: 0;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.heading a {
+    color: #1a1a1a; 
+    padding: 10px;
+    font-size: 30px;
+}
+
+.heading a:hover {
+    background-color: #696969;
+    color: #f0f8ff; 
+}
+
+.logo img {
+    width: 80px;
+    height: 70%;
+}
+
+.logo {
+    margin-top: 0.5%;
+}
+
+.search {
+    margin-top: 1%;
+    margin-left: 2%;
+    height: 30px;
+}
+
+.photo {
+    border: 2px solid #1a1a1a; 
+}
+
+.photo img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+    border-bottom: 3px solid #1a1a1a;
+    height: 150px;
+    padding: 90px;
+    margin-top: -5%;
+}
+
+.c3,
+.c1,
+.c2 {
+    background-color: #ffffff; 
+    padding: 15px;
+    margin-left: 2%;
+    border: 3px solid #ff6347; 
+    height: 110%;
+    width: 30%;
+}
+
+li {
+    font-size: 20px;
+}
+
+.models {
+    border: 3px solid #1a1a1a; 
+    width: 36%;
+    background-color: #ffff99; 
+    margin-left: 32%;
+    padding: 20px;
+    display: flex;
+}
+
+.mouse {
+    width: 300px;
+    height: 200px;
+}
+
+.type1,
+.type2,
+.type3,
+.type4 {
+    border: 2px solid #ff6347;
+    background-color: #361c1c; 
+    padding: 10px;
+    width: 25%;
+    margin: 20px;
+}
+
+.types {
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    border-bottom: 2px solid #1a1a1a; 
+}
+
+footer {
+    background-color: #f0f8ff; 
+    color: #1a1a1a; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 80px;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #1a1a1a; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff; 
+    background-color: #333; 
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-social li {
+    margin-right: 15px;
+}
+
+.footer-social a {
+    color: #1a1a1a;
+}
+
+.footer-social a:hover {
+    color: #98fb98; 
+    background-color: #333; 
+}

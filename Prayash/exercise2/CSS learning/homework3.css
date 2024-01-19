@@ -53,6 +53,9 @@ color: gold;
     margin: 16px;
 }
 .demonstration{
+    width: 200px;
+    height: auto;
+    margin-right: 150%;
 }
 .row{
     display: flex;
@@ -78,6 +81,19 @@ color: gold;
 .testimonial{
     margin-top: 80%;
 }
-.footer{}
-.durability{}
-featured{} 
+.footer{
+    width: 1px;
+    margin: 20px;
+}
+.durability{
+    width: 200px;
+    height: auto;
+    margin: 285px;
+    display: flex;
+    /* margin-right: 600px; */
+}
+featured{
+    width: 200px;
+    height: auto;
+    margin-right: 80%;
+} 
