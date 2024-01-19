@@ -96,7 +96,7 @@ li{
 .models{
     border: 3px solid black;
     width: 36%;
-    background-color: yellow;
+    background-color: rgb(0, 255, 162);
     margin-left: 32%;
     padding: 20px;
     display: flex;
@@ -106,7 +106,7 @@ li{
     height: 200px;
 }
 .type1,.type2,.type3,.type4{
-    border: 2px solid orangered;
+    border: 2px solid rgb(6, 25, 122);
     background-color: white;
     padding: 10px;
     width: 25%;
@@ -117,12 +117,12 @@ li{
     display: flex;
     margin: 0%;
     justify-content: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(9, 62, 78);
     
 }
 footer {
-background-color: aliceblue;
-color: black;
+background-color: rgb(18, 102, 176);
+color: rgb(0, 0, 0);
 padding: 20px 0;
 text-align: center;
 }
@@ -154,8 +154,8 @@ transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-color: white;
-background-color: #333; 
+color: rgb(0, 0, 0);
+background-color: #7e4c4c; 
 }
 
 .footer-social ul {
