@@ -34,7 +34,7 @@ html, body {
 }
 
 .navHead{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* display: flex; */
     margin-top:20px;
     margin-right: 10%;
@@ -50,6 +50,7 @@ html, body {
     height:50px;
     width:40px;
     margin-left:30px;
+    font-size: 20px;
     /* border:1px solid black; */
     text-decoration: none;
     color:white;
@@ -170,7 +171,7 @@ input {
 /* container 2 ends and container 3 starts here   */
 
 .container_3 {
-    height:700px;
+    height:710px;
     width:100%;
     background-color:rgb(218, 244, 244); ;
     border:1px solid black;
@@ -256,7 +257,7 @@ input {
 .para1 {
     text-align: center;
     margin-left: 63px;
-    margin-top: 55px;
+    margin-top: 38px;
     height:320px;
     width:300px;
     /* background-color: black; */
@@ -265,7 +266,7 @@ input {
  .para2 {
     text-align: center;
     margin-left: 63px;
-    margin-top: 55px;
+    margin-top: 38px;
     height:320px;
     width:300px;
     /* background-color: black; */
@@ -276,7 +277,7 @@ input {
 .para3 {
     text-align: center;
     margin-left: 63px;
-    margin-top: 55px;
+    margin-top: 38px;
     height:320px;
     width:300px;
     /* background-color: black; */
@@ -285,7 +286,7 @@ input {
 .para4 {
     text-align: center;
     margin-left: 63px;
-    margin-top: 55px;
+    margin-top: 38px;
     height:320px;
     width:300px;
     /* background-color: black;  */
@@ -298,6 +299,7 @@ input {
     width:100%;
     background-color: rgb(218, 244, 244);
     border:1px solid black;
+    border-bottom: none;
     margin-bottom: 30px;
     display: flex;
 }
@@ -463,4 +465,10 @@ button {
     border:1px solid black;
     margin-left: 40px;
     margin-top:50px;
+}
+
+footer {
+    height:50px;
+    width:100%;
+    text-align: center;
 }
