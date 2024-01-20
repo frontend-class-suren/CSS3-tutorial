@@ -1,0 +1,298 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html , body {
+    width:100%;
+    height:100%;
+}
+
+.navBar{
+
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(247, 246, 246);
+    height:100px;
+    width:100%;
+    border-bottom: 2px solid black;
+}
+
+.nav_header{
+    margin-top: 40px;
+    /* margin-right: 5%; */
+}
+
+.nav_header a{
+    margin-right:30px;
+    text-decoration: none;
+    color:black;
+}
+
+.nav_header a:hover{
+    text-decoration: underline;
+    /* color:rgb(251, 245, 245); */
+}
+
+.Artist{
+    margin-left:30px;
+    margin-top: 26px;
+}
+.Artist{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+
+.navbar_2 {
+    border-bottom:1px solid black;
+    display:flex;
+    /* margin-right: 30px; */
+    justify-content: space-between;
+    height:90px;
+    width:100%;
+
+}
+
+.titles {
+    margin-left: 10px;
+    font-family: cursive;
+    font-size:20px;
+    margin-top:25px;
+}
+
+.hopo {
+    margin-top: 30px;
+}
+
+.hopo a {
+    color:black;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+.navbar_3 {
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: space-between;
+    height:90px;
+    width:100%;
+
+}
+
+.items_1 {
+    margin-left: 10px;
+    font-family: cursive;
+    font-size:12px;
+    margin-top:25px;
+}
+
+.headings {
+    margin-top: 30px;
+}
+
+.headings a {
+    color:black;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+.first_row {
+    display:flex;
+
+    margin:25px 100px 25px 100px;
+}
+
+.box1 {
+    height:400px;
+    width:375px;
+    border:1px solid black;
+    
+}
+
+.box2 {
+    height:400px;
+    width:375px;
+    border:1px solid black;
+    margin-left: 90px;
+
+}.box3 {
+    height:400px;
+    width:375px;
+    border:1px solid black;
+    margin-left:90px;
+}
+
+
+.first_row_name {
+    display:flex;
+    margin:0px 100px 60px 205px;
+}
+
+.name_1 {
+    
+    height:50px;
+    width:150px;
+    /* border:1px solid black; */
+}
+
+.name_1 h3{
+    text-align: center;
+}
+
+.name_2 {
+    margin-left: 320px;
+    height:50px;
+    width:150px;
+    /* border:1px solid black; */
+}
+
+.name_2 h3 {
+    text-align: center;
+}
+
+.name_3 {
+    margin-left: 320px;
+    height:50px;
+    width:150px;
+    /* border:1px solid black; */
+}
+
+.name_3 h3 {
+    text-align: center;
+}
+
+.second_row {
+    display:flex;
+    margin:25px 100px 25px 100px;
+}
+
+
+.box4 {
+    height:400px;
+    width:375px;
+    border:1px solid black;
+
+}
+
+.box5 {
+    height:400px;
+    width:375px;
+    border:1px solid black;
+    margin-left:90px
+
+}
+
+.box6 {
+    height:400px;
+    width:375px;
+    border:1px solid black;
+    margin-left:90px;
+}
+
+.second_row_name {
+    display:flex;
+    margin:0px 100px 60px 205px;
+}
+
+.name_4 {
+    
+    height:50px;
+    width:150px;
+    /* border:1px solid black; */
+}
+
+.name_4 h3 {
+    text-align: center;
+}
+
+.name_5 {
+    margin-left: 320px;
+    height:50px;
+    width:150px;
+    /* border:1px solid black; */
+}
+
+.name_5 h3 {
+    text-align: center;
+}
+
+.name_6 {
+    margin-left: 320px;
+    height:50px;
+    width:150px;
+    /* border:1px solid black; */
+}
+
+.name_6 h3 {
+    text-align: center;
+}
+
+.third_row {
+    display:flex;
+    margin:25px 100px 25px 100px;
+
+}
+
+
+.box7 {
+    height:400px;
+    width:375px;
+    border:1px solid black;
+
+}
+
+.box8 {
+    height:400px;
+    width:375px;
+    border:1px solid black;
+    margin-left:90px
+
+}
+
+.box9 {
+    height:400px;
+    width:375px;
+    border:1px solid black;
+    margin-left:90px;
+}
+
+.third_row_name {
+    display:flex;
+    margin:0px 100px 60px 205px;
+}
+
+.name_7 {
+    
+    height:50px;
+    width:150px;
+    /* border:1px solid black; */
+}
+
+.name_7 h3 {
+    text-align: center;
+}
+
+.name_8 {
+    margin-left: 320px;
+    height:50px;
+    width:200px;
+    /* border:1px solid black; */
+}
+
+.name_8 h3 {
+    text-align: center;
+}
+
+.name_9 {
+    margin-left: 320px;
+    height:50px;
+    width:150px;
+    /* border:1px solid black; */
+}
+
+.name_9 h3 {
+    text-align: center;
+}
