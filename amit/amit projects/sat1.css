@@ -296,3 +296,19 @@ html , body {
 .name_9 h3 {
     text-align: center;
 }
+
+.for_button {
+
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 25px;
+    padding: 5px;
+    height:40px;
+    width:90px;
+}
+
