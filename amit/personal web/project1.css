@@ -1,63 +1,37 @@
-*{
-    padding:0px;
-    margin:0px;
+* {
+    margin :0;
+    padding:0;
 }
 
-html, body{
-    width:100%;
+html , body {
     height:100%;
-    background-color: rgb(30, 41, 45);
+    width:100%;
 }
 
-.navbar{
-    background-color: rgb(30,41,45);
-    border-radius: 2px;
-    height: 60px;
+.navigation {
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    height:80px;
+    background-color:rgb(228, 132, 132);
 }
 
-.navbar li{ 
-    float: left;
-    list-style: none;
-    padding: 3px 3px;
-    margin:12px 20px;
+img {
+    margin:15px 0px 0px 20px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    
 }
 
-.navbar ul{
-    overflow:auto;
+.navhead {
+    margin-top: 27px;
+
 }
-.navbar li a{
-    padding:3px 3px;
+.navhead a {
+
+    justify-content: center;
+    margin-right: 50px;
     text-decoration: none;
-    color:rgb(255, 253, 253);
-}
-/* .search{ 
-    float:right;
-    color: whitesmoke;
-     padding: 10px 20px; 
-} */
-
-.navbar input{
-    border:1px solid black;
-    border-radius: 10px;
-    padding:5px;
-    width:135px;
-}
-.navbar li a:hover{
-    color:rgb(176, 207, 255)
-
-}
-.amit {
-    color:rgb(148, 246, 255)
-}
-
-.amit h1 {  
-    font-size: 5rem;
-}
-
-.amit p{
-    font-size:30px;
-    padding-top: 10px;
-}
-.amit span {
-    color:antiquewhite;
+    color:black;
 }
