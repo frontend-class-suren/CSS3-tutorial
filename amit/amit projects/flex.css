@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Beth Ellen", cursive; */
+    font-family: poppins;
+  }
+  
+  :root {
+    --primary-color: #4eac0f;
+    --secondary-color: #242423;
+    --white: #fff;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    padding: 0 0.5rem;
+    /* position: fixed; */
+    flex-wrap: wrap;
+    top: 0;
+  }
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .nav-bar h1 {
+    font-weight: bold;
+  }
+  .nav-bar h4 {
+    font: thin;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  .nav-bar a:hover {
+    color: var(--primary-color);
+  }
+  .nav-features {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+  }
+  .nav-features i {
+    padding: 0.2rem;
+  }
+  .nav-features i:hover {
+    padding: 0.4rem;
+  }
+  .branch-id {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0.4rem;
+  }
+  .branch-id label {
+    font-size: small;
+  }
+  #branch {
+    font-size: small;
+    color: var(--primary-color);
+    border: none;
+  }
+  button {
+    padding: 0.5rem;
+    border: 1px transparent;
+  }
+  .online-btn {
+    border: 1px solid var(--primary-color);
+    background-color: var(--white);
+    color: var(--primary-color);
+    /* transition: all 0.2s ease-in; */
+  }
+  .online-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 1px solid var(--white);
+  }
+  .menu-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 1px solid var(--primary-color);
+  }
+  .menu-btn:hover {
+    border: 1px solid var(--primary-color);
+    background-color: var(--white);
+    color: var(--primary-color);
+  }
+  .menu-btn i {
+    margin-right: 0.3rem;
+  }
+  
+  /* Hero Styles */
+  
+  .hero-section {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+  }
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .hero-navlink {
+    display: flex;
+    gap: 1rem;
+  }
+  .hero-navlink li {
+    list-style: none;
+    font-size: small;
+  }
+  .hero-navlink a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  .hero-navlink a:hover {
+    color: var(--primary-color);
+  }
+  .hero-info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--secondary-color);
+  }
+  .hero-info-text h1 {
+    font-family: "Grape Nuts", cursive;
+    font-family: 10rem;
+  }
+  .hero-info-text hr {
+    width: 50%;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 2rem;
+    height: 500px;
+    object-fit: full;
+  }
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Mobile Responsiveness */
+  
+  @media (max-width: 480px) {
+    nav {
+      gap: 1rem;
+      padding: 1rem 0.4rem;
+    }
+    button {
+      padding: 0.2rem;
+      border: 1px transparent;
+    }
+    .online-btn {
+      border: 1px solid var(--primary-color);
+      background-color: var(--white);
+      color: var(--primary-color);
+      font-size: small;
+      /* transition: all 0.2s ease-in; */
+     }
+    .menu-btn {
+      font-size: small;
+      display: flex;
+      padding: 0.8rem 0.2rem;
+    }
+    .nav-bar h1 {
+      font-size: medium;
+    } 
+ }
