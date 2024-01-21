@@ -1,63 +1,42 @@
-*{
-    padding:0px;
-    margin:0px;
+* {
+    margin :0;
+    padding:0;
 }
 
-html, body{
-    width:100%;
+html , body {
     height:100%;
-    background-color: rgb(30, 41, 45);
+    width:100%;
+}
+.whole_body {
+    background-color: rgb(210, 250, 244);
+}
+.navigation {
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    min-width:375;
+    height:100px;
+    /* background-color:rgb(228, 132, 132); */
+    /* border-bottom: 1px solid black; */
 }
 
-.navbar{
-    background-color: rgb(30,41,45);
-    border-radius: 2px;
-    height: 60px;
+img {
+    margin:25px 0px 0px 20px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    
 }
 
-.navbar li{ 
-    float: left;
-    list-style: none;
-    padding: 3px 3px;
-    margin:12px 20px;
-}
+.navhead {
+    margin-top: 36px;
 
-.navbar ul{
-    overflow:auto;
 }
-.navbar li a{
-    padding:3px 3px;
+.navhead a {
+
+    justify-content: center;
+    margin-right: 40px;
     text-decoration: none;
-    color:rgb(255, 253, 253);
-}
-/* .search{ 
-    float:right;
-    color: whitesmoke;
-     padding: 10px 20px; 
-} */
-
-.navbar input{
-    border:1px solid black;
-    border-radius: 10px;
-    padding:5px;
-    width:135px;
-}
-.navbar li a:hover{
-    color:rgb(176, 207, 255)
-
-}
-.amit {
-    color:rgb(148, 246, 255)
+    color:black;
 }
 
-.amit h1 {  
-    font-size: 5rem;
-}
-
-.amit p{
-    font-size:30px;
-    padding-top: 10px;
-}
-.amit span {
-    color:antiquewhite;
-}
