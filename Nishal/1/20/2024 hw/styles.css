@@ -6,6 +6,8 @@
 img{
     width: 450px;
     height: 450px;
+    margin: 1%;
+    padding: 1%;
 }
 
 body {
