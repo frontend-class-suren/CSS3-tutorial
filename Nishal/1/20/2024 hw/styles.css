@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    width: 450px;
+    height: 450px;
+}
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
