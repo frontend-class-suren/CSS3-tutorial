@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="templetemo_406.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-image: url(./backgrounnd.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        opacity: 1;
+    }
+    .logo>img{
+        width: 45px;
+        height: 45px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo>p{
+        color: red;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 15px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        height: 60px;
+        background-color: white;
+        background-size: cover;
+        width: 100%;
+        justify-content: center;
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 5%;
+        
+    }
+    .heading{
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        
+        
+    }
+    .heading>a{
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        
+    }
+    .social_media{
+        display: flex;
+        justify-content: center;
+    }
+    .social_media>a{
+        color: black;
+        border: 2px solid white;
+        border-radius: 50%;
+        background-color: white;
+        font-size: 25px;
+        margin: 10px;
+        
+    }
+    
+    @media (max-width: 1000px) {
+        .logo > p {
+            font-size: 20px;
+        }
+
+        .heading {
+            flex-direction: row;
+            
+            justify-content: center;
+            position:absolute;
+            
+            
+            width: 100%;
+        }
+        .heading >a{
+            font-size: 10px;
+        }
+        .social_media>a{
+            font-size: 15px;
+        }
+        .logo{
+            display: none;
+        }
+
+    }
+</style>
+<body>
+    <div class="social_media">
+        <a href="https://www.facebook.com/su.dip.3363334"><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <nav>
+        <div class="logo">
+            <img src="./flexlogo.png" alt="">
+            <p>FLEX</p>
+        </div>
+        <div class="heading">
+            <a href="">HOME</a>
+            <a href="">SERVICES</a>
+            <a href="">PORTFOLIO</a>
+            <a href="">TEAM</a>
+            <a href="">CONTACT</a>
+        </div>
+    </nav>
+</body>
+</html>
