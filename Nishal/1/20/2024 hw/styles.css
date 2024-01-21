@@ -12,7 +12,7 @@ img{
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #f4f4f4; 
+    background-color: #000101c0; 
 }
 
 .navigation {
@@ -20,7 +20,7 @@ body {
     justify-content: space-between; 
     align-items: center;
     padding: 10px;
-    background-color: #1d0268; 
+    background-color: #0f0231; 
 }
 
 .logo-container>p {
@@ -45,7 +45,7 @@ body {
     align-items: center; 
     justify-content: center;
     height: 150px;
-    background-color: #0e0259;
+    background-color: #0b0245;
 }
 
 .header-line>p {
@@ -55,9 +55,10 @@ body {
 }
 
 .header-subtitle-container>p {
-    color: black;
+    background-color: #0b0245;
+    color: rgb(255, 249, 249);
     font-size: 18px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .header-line2 {
@@ -104,7 +105,8 @@ body {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #19024c; 
+    background-color: #410bc097; 
+    color: white;
 }
 
 footer>p:first-child {
