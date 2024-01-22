@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(/Nishal/sp5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.social-media a {
+    color: black;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.social-media a:hover {
+    color: blue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo-container img {
+    width: 45px;
+    height: 45px;
+}
+
+.logo-container p {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.navigation-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navigation-links a:hover {
+    color: red;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.button-container p {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.button-container p:hover {
+    background-color: black;
+}
+
+.content-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.content-container h2 {
+    text-decoration: underline;
+}
+
+.content-container h4 {
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.service-boxes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-boxes .box1, .service-boxes .box2, .service-boxes .box3, .service-boxes .box4 {
+    background-color: lightseagreen;
+    width: 320px;
+    height: 350px;
+    border: 2px solid orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-boxes a {
+    color: white;
+    font-size: 60px;
+}
+
+.service-boxes a:hover {
+    color: red;
+}
+
+h2#portfolio {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h4 {
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container .row1, .image-container .row2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.image-container img {
+    width: 320px;
+    height: 350px;
+    border: 2px solid orangered;
+}
+
+footer {
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-disclaimer p {
+    font-size: 15px;
+}
