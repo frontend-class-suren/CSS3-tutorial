@@ -1,5 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 .container{
-    padding: 2rem;
+    /* padding: 2rem; */
+}
+a:hover{
+    color: green;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    gap: 18rem;
+}
+.nav-bar .logo img{
+    width: 55px;
+}
+.header{
+    /* gap: 2rem; */
 }
 .slider-cover{
     position: relative;
