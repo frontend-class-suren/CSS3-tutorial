@@ -1,0 +1,39 @@
+@media (max-width:720px) {
+    .navBar {
+        width:325px;
+        /* flex-direction: column; 
+        */
+        /* position: fixed; */
+        /* top:0; */
+        /* right:0; */
+    }
+
+    .nav_header {
+    
+     font-size: medium;
+     margin-left:0px;
+     gap:15px;
+        
+     }
+
+ .flex {
+    display:none;
+}
+
+
+    .first_row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second_row{
+    
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third_row{
+        flex-direction: column;
+        align-items: center;
+    }
+}
