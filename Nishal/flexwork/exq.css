@@ -6,12 +6,13 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(/Nishal/sp5.jpg);
+    background-image: url(/Nishal/ASA.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
     color: white;
+    background-color: blanchedalmond;
 }
 
 .social-media {
@@ -21,10 +22,10 @@ body {
 }
 
 .social-media a {
-    color: black;
-    border: 2px solid white;
+    color: rgb(249, 239, 239);
+    border: 2px solid rgb(15, 13, 13);
     border-radius: 50%;
-    background-color: white;
+    background-color: rgb(2, 5, 78);
     font-size: 25px;
     margin: 10px;
 }
@@ -37,8 +38,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: rgba(1, 1, 23, 0.259);
     padding: 10px 20px;
+    color: white;
 }
 
 .logo-container img {
@@ -56,12 +58,12 @@ nav {
 .navigation-links a {
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(230, 221, 221);
     font-weight: bold;
 }
 
 .navigation-links a:hover {
-    color: red;
+    color: rgb(3, 112, 12);
 }
 
 h1 {
@@ -79,14 +81,14 @@ h3 {
 }
 
 .button-container p {
-    background-color: red;
+    background-color: rgba(11, 3, 94, 0.264);
     padding: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .button-container p:hover {
-    background-color: black;
+    background-color: rgb(21, 0, 0);
 }
 
 .content-container {
@@ -112,10 +114,10 @@ h3 {
 }
 
 .service-boxes .box1, .service-boxes .box2, .service-boxes .box3, .service-boxes .box4 {
-    background-color: lightseagreen;
+    background-color: rgb(11, 6, 54);
     width: 320px;
     height: 350px;
-    border: 2px solid orangered;
+    border: 2px solid rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,7 +129,7 @@ h3 {
 }
 
 .service-boxes a:hover {
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 h2#portfolio {
@@ -157,14 +159,15 @@ h4 {
 .image-container img {
     width: 320px;
     height: 350px;
-    border: 2px solid orangered;
+    border: 2px solid rgb(18, 14, 12);
 }
 
 footer {
-    background-color: antiquewhite;
+    background-color: rgb(15, 6, 90);
     padding: 10px;
     text-align: center;
     margin-top: 30px;
+    color: white;
 }
 
 .footer-disclaimer p {
