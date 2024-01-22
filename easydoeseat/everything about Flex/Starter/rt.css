@@ -1,0 +1,18 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-wrap: pretty;
+    text-underline-position: below;
+    text-transform: capitalize;
+}
+#container {
+    background-color: #3d4a24;
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+    border: 12px solid #979999;
+}
+

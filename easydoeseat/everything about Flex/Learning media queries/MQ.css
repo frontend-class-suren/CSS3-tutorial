@@ -1,0 +1,19 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 10em;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav {
+    font-size: 1.5em;
+}
+
+ul,li {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
