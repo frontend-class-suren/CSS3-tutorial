@@ -154,6 +154,9 @@ color: green;
     margin-top: 20px;
     margin-right: 50px;
 }
+.box1,.box2,.box3 li{
+    list-style: none;
+}
 .box1,.box3{
     background-color:whitesmoke;
 }
@@ -188,6 +191,10 @@ color: green;
     border: 1px solid black;
     border-width: 80%;
     
+}
+.line2{
+    border: 1px solid white;
+    border-width: 80%;
 }
 .popular{
     display: flex;
@@ -322,13 +329,30 @@ text-align: center;
         height: 100%;
        
     }
+
     .imagee{
         background-color: aliceblue;
         height: 300px;
         width: 100%;
     }
+    
 
     
+}
+@media(max-width:607px) {
+    .big-container2 .imagee .photo img{
+        width: 250px;
+        height: 100px;
+        align-items: center;
+    }
+    .big-container2 .imagee{
+        display: flex;
+        flex-direction: column;
+    }
+    .big-container2 .imagee .other{
+        margin: 0px 0px 68px 0px;
+    }
+
 }
 @media (max-width:862px){
     .mobileb2 .fobank p, .mobileb2 .fibank p, .mobileb2 .sibank p{
@@ -354,24 +378,34 @@ text-align: center;
     }
 }
 @media (max-width:526px){
+
     .mobileb{
         display: flex;
         flex-direction: column;
+        margin: 4px 8px;
+        margin-left: 24px;
+        
         
     }
 
     .mobileb2{
         display: flex;
         flex-direction: column;
+        
+        margin: 4px 8px;
+        margin-right: 4px;
+        
+        
     }
     .fbank, .sbank, .tbank, .fobank, .fibank, .sibank{
         border: 2px solid green;
         width: 150px;
-        margin: 10px;
+        margin: 5px 0px;
     }
-    .mobileb2{
-        margin-left: 26%;
-       
+    .abc{
+        display: flex;
+        flex-direction: row;
+
     }
 }
 </style>
@@ -451,7 +485,7 @@ text-align: center;
         <h1>Product Two</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam unde sint obcaecati sequi vitae ipsum ipsa maiores sunt quam officia!</p><br>
         <a href="" class="btn4">Learn More</a><br><br>
-        <div class="line"></div><br>
+        <div class="line2"></div><br>
         <li><i class="fa-solid fa-check"></i> Lorem, ipsum dolor.</li>
         <li><i class="fa-solid fa-check"></i> Lorem ipsum dolor sit.</li>
         <li><i class="fa-solid fa-check"></i> Lorem, ipsum dolor.</li>
@@ -490,7 +524,7 @@ text-align: center;
        <p class="line2">All of our Fortifi Bank Personal Checking Accounts came with.</p>
     </div>
     <br><br>
-    
+    <div class="abc">
     <div class="mobileb">
 
         <div class="fbank"><i class="fa-solid fa-arrow-pointer"></i><br><p>Online Banking</p></div>
@@ -502,6 +536,7 @@ text-align: center;
         <div class="fibank"><i class="fa-solid fa-receipt"></i><br><p>eStatements</p></div>
        <div class="sibank"><i class="fa-solid fa-phone"></i><br><p>Telephone Banking</p></div>
     </div>
+</div>
 
    
 
