@@ -7,20 +7,39 @@
 .container{
     /* padding: 2rem; */
 }
+.link img{
+    margin: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
 a:hover{
-    color: green;
+    color: green ;
 }
 .nav-bar{
+    margin-left: 330px;
+    width: 700px;
+    height: auto;
+    align-items: center;
     display: flex;
     justify-content: center;
     background-color: cadetblue;
-    gap: 18rem;
+    gap: 14rem;
+    border-radius: 5px;
+    /* padding: 10px; */
+}
+.nav-bar a{
+    text-decoration: none;
 }
 .nav-bar .logo img{
     width: 55px;
+    display: flex;
 }
 .header{
-    /* gap: 2rem; */
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    padding: 12px;
 }
 .slider-cover{
     position: relative;
