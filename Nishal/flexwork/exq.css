@@ -60,10 +60,12 @@ nav {
     text-decoration: none;
     color: rgb(230, 221, 221);
     font-weight: bold;
+    position: sticky;
 }
 
 .navigation-links a:hover {
     color: rgb(3, 112, 12);
+    
 }
 
 h1 {
@@ -85,6 +87,7 @@ h3 {
     padding: 10px;
     color: rgb(255, 255, 255);
     text-align: center;
+    position: sticky;
 }
 
 .button-container p:hover {
@@ -173,3 +176,5 @@ footer {
 .footer-disclaimer p {
     font-size: 15px;
 }
+
+@media (width:300px)
