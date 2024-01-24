@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1%;
+        position: sticky;
+    
+    }
+    .logo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+    .logo h1{
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: blueviolet;
+        margin-left: 10px;
+
+    }
+    .heading{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .heading li{
+        color: black;
+        list-style-type: none;
+        
+    }
+    .heading li a{
+        color: black;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .heading li a:hover{
+        color:blueviolet;
+    }
+    .threeline{
+        display: none;
+    }
+    @media(max-width:800px){
+        .threeline{
+            display: block;
+            font-size: 40px;
+            color: blueviolet;
+            margin-right: 10px;
+        }
+        .heading{
+            display: none;
+        }
+        .snd-container{
+            flex-direction: column-reverse;
+            gap: 0;
+        }
+        .text{
+            margin-left: 0%;
+            align-self:center;
+            
+        }
+        .text h5, .text p, .text li{
+            text-align: center;
+            margin-right: 50px;
+        
+        }
+        .text a{
+            justify-content: center;
+        }
+        .btn1{
+            display: block;
+            text-align: center;
+        }
+        .lastline{
+            margin-top: -5%;
+        }
+
+        
+
+
+
+    }
+    @media(max-width:375px){
+        .img1 img{
+        width: 100%;
+        height: 100px;
+    }
+    .img1{
+       
+    }
+
+    }
+
+    .img1 img{
+        height: 750px;
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+        
+    }
+
+    .snd-container{
+        width: 100%;
+       
+        display: flex;
+        background-color: white;
+        margin-top: 40px;
+        justify-content: space-between;
+        gap: 15%;
+
+    }
+    .text{
+        padding-top: 60px;
+        margin-left: 6.5%;
+        width: 60%;
+    }
+    .text h5{
+        font-size: 15px;
+
+    }
+    .mainline{
+        font-size: 45px;
+    }
+    .sline{
+        font-size: 20px;
+    }
+    .text li{
+        font-size: 20px;
+        list-style-type: none;
+    }
+    .text li i{
+        color: darkcyan;
+    }
+    .btn1{
+        border: 2px solid skyblue;
+        padding: 10px 25px;
+        background-color: skyblue;
+        color: white;
+    }
+    .btn1:hover{
+        background-color: black;
+        color: white;
+    }
+    .lastline{
+        font-size: 15px;
+    }
+    @media(max-width:905px){
+        .img1 img{
+            height: 800px;
+            
+        }
+    }
+    @media(max-width:880px){
+        .btn1{
+            padding: 5px;
+        }
+    }
+    @media(max-width:535px){
+        .text .mainline{
+            font-size: 25px;
+        }
+        .text h1{
+            font-size: 10px;
+        }
+        .text p{
+            font-size: 17px;
+        }
+        .text li{
+            font-size: 17px;
+        }
+        .text a{
+            font-size: 9px;
+            padding: 6px;
+        }
+        .lastline{
+            margin-top: -15%;
+        }
+    }
+    
+
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./s.png" alt="logo of s">
+                <h1>SUDIP RAYAMAJHI</h1>
+            </div>
+            <div class="heading">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+            </div>
+            <div class="threeline">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="snd-container">
+        <div class="text">
+            <h5 style="color: darkcyan;">MAIN BENEFIT</h5>
+            <p class="mainline">What your company does <br> and how <span style="color: darkcyan;">it solves the <br> problem</span></p><br>
+            <p class="sline">Use two sentences to explain how your product / service / <br> business creates the value in your title.</p><br>
+            <li><i class="fa-solid fa-circle-check"></i> Introduce your product and or service</li><br>
+            <li> <i class="fa-solid fa-circle-check"></i> Explain why it's valuable</li><br>
+            <li><i class="fa-solid fa-circle-check"></i> Explain how it will create value</li>
+            <br><br>
+            <a href="#" class="btn1">PURCHASE FOR JUST $99 <i class="fa-solid fa-lock"></i></a><br><br><br>
+            <p class="lastline">Refund policy or link to pricing tiers.</p>
+        </div>
+        <div class="img1">
+            <img src="./photo1.jpeg" alt="">
+        </div>
+    </section>
+</body>
+</html>
