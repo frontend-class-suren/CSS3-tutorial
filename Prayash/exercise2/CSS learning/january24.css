@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color:brown;
+    height: 36px;
+    width: 100%;
+}
+
+label.logo{
+    color: grey;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #9AD7DB;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+a.icon,a:hover{
+    background: rebeccapurple;
+    transition: 0.5s;
+}
+.checkbtn{
+    font-size: 20px;
+    color: green;
+    float: right;
+    line-height: 30px;
+    margin-right: 5px;
+    cursor:pointer;
+}
+#check{
+    display: none;
+}
+@media (max-width: 920px){
+    label.logo{
+        font-size: 20px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font font-size
+    }
+}
+    

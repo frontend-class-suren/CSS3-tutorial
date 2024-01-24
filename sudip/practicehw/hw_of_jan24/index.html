@@ -116,6 +116,9 @@
         width: 100%;
         
     }
+    .secret{
+        display: none;
+    }
 
     .snd-container{
         width: 100%;
@@ -194,7 +197,111 @@
             margin-top: -15%;
         }
     }
+    .container3{
+        background-color: aliceblue;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .container3 h5{
+        font-size: 15px;
+        text-align: center;
+        color:red;
+    }
+    .container3 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .container3 .pp{
+        font-size: 18px;
+        text-align: center;
+    }
+    .c1 img, .c2 img, .c3 img{
+        width: 320px;
+        height: 185px;
+    }
+    .subcontainer {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-around;
+}
+    .c1 p, .c2 p, .c3 p{
+        font-size: 19px;
+    }
+@media(max-width:1085px){
+    .subcontainer {
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width:500px){
+    .img1{
+        display: none;
+    }
+    .secret{
+        display: block;
+    }
+    .secret img{
+        height: 350px;
+        width: 100%;
+        
+    }
+}
+}
+.container4{
+    background-color: aliceblue;
+    padding-top: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     
+}
+.container4 h5{
+    font-size: 15px;
+    text-align: center;
+    color:orangered;
+}
+.container4 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.container4 .pp{
+    text-align: center;
+    font-size: 18px;
+}
+.scontainer1 .rightpart img{
+    width: 550px;
+    height: 100%;
+}
+.scontainer1{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.leftpart{
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.leftpart .line1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.leftpart li{
+    font-weight: bold;
+    list-style: none;
+}
+.leftpart li i{
+    color: red;
+}
+.common{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 
 
 </style>
@@ -230,7 +337,65 @@
         </div>
         <div class="img1">
             <img src="./photo1.jpeg" alt="">
+            
+        </div>
+        <div class="secret">
+            <img src="./photo1.jpeg" alt="" class="secret">
         </div>
     </section>
+    <div class="container3">
+        <h5>QUICK INTRO</h5>
+        <h2>Explain what you do</h2>
+        <p class="pp">The goal of this section is to briefly show the user what your product or services does <br> so that they can quickly understand the product or service and the context.</p>
+        <div class="subcontainer">
+            <div class="c1">
+                <img src="./img2 copy.webp" alt="">
+                <h3>1. Landing Page Templates</h3><br>
+                 <p class="ppp">In hac habitasse platea dictumst. Vivamus <br>adispiscing fermentum Lorem ipsum <br> dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="c2">
+                <img src="./img3.jpeg" alt="">
+                <h3>2. Semantically designed</h3><br>
+                <p class="ppp">In hac habitasse platea dictumst. Vivamus <br>adispiscing fermentum Lorem ipsum <br> dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="c3">
+                <img src="./img4.jpeg" alt="">
+                <h3>3. Conversion Optimized</h3><br>
+                <p class="ppp">In hac habitasse platea dictumst. Vivamus <br>adispiscing fermentum Lorem ipsum <br> dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container4">
+        <h5>THE PAIN</h5><br>
+        <h2>The problem and why it's painful</h2><br>
+        <p class="pp">Here you can critique the current solutions or what competitors are doing that are <br>ineffectual/expensive/time-consuming.</p><br><br>
+        <div class="common">
+        <div class="scontainer1">
+            <div class="leftpart">
+            <p class="line1">Pain/Problem 1</p><br>
+            <p class="line2">A short description of this problem and why it's painful. Maybe current <br> solutions are expensive.</p><br>
+            <li><i class="fa-solid fa-xmark"></i> Users scan bullet points so use then to highlight key points</li><br>
+            <li><i class="fa-solid fa-xmark"></i> It's hard to produce quality consistent design</li>
+        </div>
+        <div class="rightpart">
+            <img src="./img5.png" alt="">
+        </div>
+        </div>
+
+        <div class="scontainer1">
+            <div class="leftpart">
+            <p class="line1">Pain/Problem 2</p><br>
+            <p class="line2">A short description of this problem and why it's painful. Maybe current <br> solutions are expensive.</p><br>
+            <li><i class="fa-solid fa-xmark"></i> Users scan bullet points so use then to highlight key points</li><br>
+            <li><i class="fa-solid fa-xmark"></i> It's hard to produce quality consistent design</li>
+        </div>
+        <div class="rightpart">
+            <img src="./img5.png" alt="">
+        </div>
+        </div>
+    </div>
+<br><br><br><br>
+    </div>
+    
 </body>
 </html>
