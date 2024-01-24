@@ -1,0 +1,24 @@
+@media only screen and (max-width:800px) {
+    .photo1_section {
+    /* filter: grayscale(100%); */
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+
+    }
+    .navbar{
+        /* font-size: small; */
+        justify-content: center;
+    }
+
+
+
+    .logo {
+        display:none;
+    }
+
+    .second_container {
+        flex-direction: column;
+    }
+}
