@@ -548,6 +548,120 @@ text-align: center;
     margin-top: -12%;
 }
 }
+@media(max-width:820px){
+    .big{
+        height: 500px;
+    }
+}
+
+.big-container6{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.big-container6 div h1{
+    margin-bottom: 10px;
+}
+li{
+    list-style-type: none;
+}
+.c1 h1, .c2 h1, .c3  h1, .c4  h1{
+    font-size: 25px;
+   
+}
+.c1 li a, .c2 li a, .c3 li a, .c4 li a{
+    color: black;
+    
+}
+.c1 li a:hover, .c2 li a:hover, .c3 li a:hover, .c4 li a:hover{
+    color: green;
+    
+}
+.c1 li, .c2 li, .c3 li,.c4 li{
+    padding: 2px;
+}
+.c4 .botton{
+    border: 2px solid green;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+.c4 .botton:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: green;
+}
+@media(max-width:600px){
+    .big-container6{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+}
+.one h1{
+font-size: 25px;
+
+}
+.one{
+    margin-left: 6.6%;
+}
+footer{
+background-color: aliceblue;
+width: 100%;
+height: 100px;
+display: flex;
+justify-content: space-between;
+padding-top: 40px;
+}
+footer .last{
+    margin-left: 21%;
+
+}
+.icon i{
+    font-size: 45px;
+    margin-right: 30px;
+    color: green;
+}
+.icon{
+    margin-right: 100px;
+}
+@media(max-width:710px){
+    .last{
+        margin-left: 51%;
+    }
+    footer{
+        height: 150px;
+        align-items:start;
+    }
+    
+}
+@media(max-width:690px){
+    footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 180px;
+    }
+    .icon{
+        margin-top: 5%;
+    }
+}
+@media(max-width:428px){
+
+.icon{
+    text-align: center;
+    margin-left: 8%;
+}
+
+}
+
+
+
+
+
 
 </style>
 <body>
@@ -701,5 +815,57 @@ text-align: center;
         <a href="#">Talk To Us</a>
     </div>
 </div>
+
+<div class="big-container6">
+    <div class="c1">
+        <h1>Personal</h1>
+    
+       <li> <a href="">Checking Accounts</a></li>
+        <li><a href="">Saving Accounts</a></li>
+        <li><a href="">Personal Home and Auto Loans</a></li>
+       <li> <a href="">Investments</a></li>
+       <li> <a href="">Credit and Debit Cards</a></li>
+       <li> <a href="">Online & Mobile Banking</a></li>
+    
+    </div>
+    <div class="c2">
+        <h1>Business</h1>
+        <li><a href="">Checking Accounts</a></li>
+        <li><a href="">Savings and CDs</a></li>
+        <li><a href="">Credit & Lending</a></li>
+        <li><a href="">Treasury Management</a></li>
+        <li><a href="">Wealth Management</a></li>
+        <li><a href="">Online and Mobile Banking</a></li>
+    </div>
+    <div class="c3">
+        <h1>More</h1>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Return</a></li>
+        <li><a href="">Locations</a></li>
+        <li><a href="">About Fotri Bank</a></li>
+        <li><a href="">Community Banking</a></li>
+    </div>
+    <div class="c4">
+        <h1>Contact</h1>
+        <li><a href="" style="font-weight: bold;">General</a></li>
+        <li><a href="">+56-076-1500</a></li>
+        <li><a href=""style="font-weight: bold;">Tel-line</a></li>
+        <li><a href="">077-474-4747</a></li>
+        <li><a href=""style="font-weight: bold;">Our Routing Number</a></li>
+        <li><a href="">07499020047</a></li><br>
+        <a href="" class="botton">Contact Us</a>
+    </div>
+</div><br><br>
+
+<footer>
+    <div class="paragraphh">
+    <p class="last">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, autem. <br>Lorem ipsum dolor sit amet.</p>
+</div>
+    <div class="icon">
+        <i class="fa-brands fa-wordpress"></i>
+        <i class="fa-solid fa-house"></i>
+
+    </div>
+</footer>
 </body>
 </html>
