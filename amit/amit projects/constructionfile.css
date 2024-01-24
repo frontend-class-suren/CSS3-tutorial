@@ -152,3 +152,46 @@
     margin: 12px 2px;
     cursor: pointer;
 }
+
+.third_container {
+   background-image:url("../pictures/phone.jpg");
+    /* background-color: brown; */
+    background-attachment: scroll;
+    /* width:100%; */
+    margin:auto;
+    height:100%;
+    background-position: top;
+    background-size: cover;
+    margin-top: 25px;
+    padding:20px;
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    gap:20px;
+}
+
+
+.boxes h3, p{
+    padding:10px 0px;
+}
+
+.boxes {
+    
+    margin-top:400px;
+    /* height:150px; */
+    /* width:200px; */
+    background-color: aqua;
+    padding:25px;
+}
+
+.boxes a{
+    text-decoration: none;
+    color:white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.boxes a:hover {
+ color:grey;
+ border-bottom: 1px solid grey;;
+}
+

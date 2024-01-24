@@ -21,4 +21,8 @@
     .second_container {
         flex-direction: column;
     }
+
+    .third_container {
+        flex-direction: column;
+    }
 }
