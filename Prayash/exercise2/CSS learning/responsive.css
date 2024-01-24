@@ -29,7 +29,7 @@ a:hover{
     /* padding: 10px; */
 }
 .nav-bar a{
-    text-decoration: none;
+    text-decoration: none; 
 }
 .nav-bar .logo img{
     width: 55px;
