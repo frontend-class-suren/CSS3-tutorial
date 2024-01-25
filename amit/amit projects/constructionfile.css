@@ -62,7 +62,9 @@
     background: url("../pictures/imagefirst.jpg");
     /* background-position:top; */
     background-size:cover;
-    background-position: top;
+    /* background-size: contain; */
+    /* background-position: top; */
+    /* background-position: top; */
     /* background-repeat: no-repeat; */
     display:flex;
     justify-content: center;
