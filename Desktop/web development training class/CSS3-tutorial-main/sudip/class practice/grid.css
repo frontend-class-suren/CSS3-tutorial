@@ -1,0 +1,9 @@
+.grid-container{
+    display: grid;
+    grid: 150px / 150 150;
+}
+.grid-container div{
+    margin: 10px;
+    background-color: blueviolet;
+    padding: 20px 30px;
+}

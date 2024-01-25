@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.one{
+    border: 2PX solid black;
+    background-color: blueviolet;
+    width: 100px;
+    height: 200px;
+    padding: 200PX 100PX;
+    color: aliceblue;
+    font-size: medium;
+}
+
+.two{
+    border: 2px solid red;
+    background-color: blueviolet;
+    padding: 200PX 200PX;
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    font-size: medium;
+}

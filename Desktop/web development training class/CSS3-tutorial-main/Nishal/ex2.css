@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo-description {
+    font-size: 14px;
+    color: #555;
+}
+
+.search {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.search input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.nav {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+
+.MAINBOX {
+    display: flex;
+}
+
+.img img {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.pdf {
+    margin-top: 10px;
+}
+
+.main-box {
+    display: inline;
+   
+    padding-left: 20px;
+}
+
+.main-box h1 {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.LIST {
+    display: block;
+    margin-top: 10px;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    padding-left: 20px;
+}
