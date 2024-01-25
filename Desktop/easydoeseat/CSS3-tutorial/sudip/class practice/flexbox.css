@@ -1,0 +1,8 @@
+.inline{
+    background-color:aquamarine;
+    /* display: inline; */
+    display: block;
+}
+.caption{
+    display: contents;
+}

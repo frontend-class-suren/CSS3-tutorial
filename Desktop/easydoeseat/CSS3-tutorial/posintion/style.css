@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+
+    width: 100vw;
+    height: 100vh;
+}
+.nav{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+.nav .head{
+    display: flex;
+}
+
+.nav .head h3{
+    margin: 0px 20px;
+}
+.container{
+    display: flex;
+    background-color: burlywood;
+    justify-content: space-around;
+}
+
+.banner img{
+    width: 400px;
+}
+.context h4{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.context p{
+    text-transform: capitalize;
+    text-align: center;
+}

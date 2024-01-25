@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container{
+    /* padding: 2rem; */
+}
+.link img{
+    margin: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+a:hover{
+    color: green ;
+}
+.nav-bar{
+    margin-left: 330px;
+    width: 700px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    gap: 14rem;
+    border-radius: 5px;
+    /* padding: 10px; */
+}
+.nav-bar a{
+    text-decoration: none; 
+}
+.nav-bar .logo img{
+    width: 55px;
+    display: flex;
+}
+.header{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    padding: 12px;
+}
+.slider-cover{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 0.5rem;
+}
+.sider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: azure;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}

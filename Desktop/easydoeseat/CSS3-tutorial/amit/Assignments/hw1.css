@@ -1,0 +1,23 @@
+*{
+    /* background-color: rgb(222, 183, 183); */
+    background-image: url("code.jpg");
+}
+
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    text-decoration:underline;
+    color:rgb(12, 12, 12)
+}
+
+.Computer{
+    
+    font-size: 20px;                                                      
+    font-family: cursive;
+}
+
+footer{
+    font-family: cursive;
+    text-align: center;
+}

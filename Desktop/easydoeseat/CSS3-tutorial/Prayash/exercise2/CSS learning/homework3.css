@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkred;
+    padding: 8px 10px;
+}
+.logo img{
+    width: 80px;
+}
+a{
+color: gold;
+}
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(8, 8, 4);
+    align-items: center;
+} */
+.box{
+    display: flex;
+    background-color: dimgray;
+}
+.box .img{
+    /* position: relative; */
+    /* width: 100px; */
+    margin-top: 20px;
+    margin: 20px; 
+}
+.box .img img{
+    width: 800px;
+    border-radius: 10px;
+    margin: 30px
+}
+.features{
+    margin: 100px;
+    color: gold;
+    font: bold;
+}
+.demo{
+    display: flex;
+    background-color:black;
+}
+.description{
+    color: aliceblue;
+    margin: 16px;
+}
+.demonstration{
+    width: 200px;
+    height: auto;
+    margin-right: 150%;
+}
+.row{
+    display: flex;
+}
+.image-box img{
+    width: 170px;
+    height: auto;
+    object-fit: cover;
+}
+.image-box{
+    /* overflow: hidden; */
+    margin: 50px 0;
+    height: 50px;
+    padding-right: 10px;
+}
+/* .image-box .col-2{
+    height: 50px;
+}
+.col-3{
+    height: 50px;
+} */
+.overview{}
+.testimonial{
+    margin-top: 80%;
+}
+.footer{
+    width: 1px;
+    margin: 20px;
+}
+.durability{
+    width: 200px;
+    height: auto;
+    margin: 285px;
+    display: flex;
+    /* margin-right: 600px; */
+}
+featured{
+    width: 200px;
+    height: auto;
+    margin-right: 80%;
+} 
