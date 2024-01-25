@@ -94,6 +94,7 @@
 
     .mainbox {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
 
