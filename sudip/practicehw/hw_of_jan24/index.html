@@ -223,6 +223,7 @@
     display: flex;
     margin-top: 3%;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
     .c1 p, .c2 p, .c3 p{
         font-size: 19px;
@@ -231,11 +232,12 @@
     .subcontainer {
     display: flex;
     margin-top: 3%;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    gap: 25px;
 }
   .threebox{
-    flex-direction: column-reverse;
+    flex-wrap: wrap;
     align-items: center;
     gap: 60px;
     justify-content: space-around;
@@ -503,6 +505,7 @@ padding-right: 2%;
 }
 .container8{
     background-color: aliceblue;
+
 }
 .container8 .headingg h2{
     font-size: 30px;
@@ -519,7 +522,7 @@ padding-right: 2%;
 .pp1 img{
     border-radius: 50%;
     height: 40px;
-    width: 60px;
+    width: 40px;
 }
 .pp1{
     display: flex;
@@ -535,10 +538,11 @@ padding-right: 2%;
     display: flex;
     justify-content: space-around;
     padding-bottom: 10%;
+    flex-wrap: wrap;
 }
 @media(max-width:860px){
     .photos{
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
         align-items: center;
@@ -578,6 +582,9 @@ padding-right: 2%;
     background-color: rgb(14, 14, 55);
     color: white;
     padding: 20px;
+}
+.pp1{
+    gap: 10px;
 }
 
 
