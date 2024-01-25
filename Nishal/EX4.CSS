@@ -1,0 +1,95 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    background-color: rgba(9, 2, 45, 0.99);
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav h4{
+    margin: 10px;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+
+    
+}
+.nav-log img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.body{
+
+    background-color: rgba(104, 66, 12, 0.74);
+    /* padding: 1080px 400px; */
+    display: flex;
+}
+.body div{
+    margin: 50px;
+}
+
+.left{
+    background-color: rgb(5, 28, 73);
+    width: 600px;
+    height: auto;
+}
+.right{
+    background-color: rgb(0, 133, 69);
+    width: 400px;
+    height: 600px;
+}
+.img{
+    /* background-color: darkgrey; */
+    /* padding: 100px 100px; */
+}
+.img img{
+    width: 110%;
+    height: 300px;
+}
+.img p{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.title{
+    background-color: rgb(149, 5, 5);
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px 200px;
+}
+.title h4{
+
+    color: aliceblue;
+    margin: 10px;
+}
+.card{
+    background-color: rgba(7, 162, 7, 0.263);
+    padding: 100px 100px;
+    border-radius: 150px 20px;
+}
+.child-1{
+    background-color: rgb(57, 88, 114);
+    padding: 50px 100px;
+}
+.child-2{
+    background-color:rgb(219, 62, 5);
+    padding: 50px 100px;
+}
+.footer-body{
+    background-color: rgb(18, 88, 123);
+    padding: 50px 100px;
+
+    border-radius: 0px 100px;
+}

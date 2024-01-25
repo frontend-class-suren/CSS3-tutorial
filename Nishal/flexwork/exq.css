@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(/Nishal/ASA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+    background-color: blanchedalmond;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.social-media a {
+    color: rgb(249, 239, 239);
+    border: 2px solid rgb(15, 13, 13);
+    border-radius: 50%;
+    background-color: rgb(2, 5, 78);
+    font-size: 25px;
+    margin: 10px;
+}
+
+.social-media a:hover {
+    color: blue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(1, 1, 23, 0.259);
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo-container img {
+    width: 45px;
+    height: 45px;
+}
+
+.logo-container p {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.navigation-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(230, 221, 221);
+    font-weight: bold;
+    position: sticky;
+}
+
+.navigation-links a:hover {
+    color: rgb(3, 112, 12);
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.button-container p {
+    background-color: rgba(11, 3, 94, 0.264);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: sticky;
+}
+
+.button-container p:hover {
+    background-color: rgb(21, 0, 0);
+}
+
+.content-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.content-container h2 {
+    text-decoration: underline;
+}
+
+.content-container h4 {
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.service-boxes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-boxes .box1, .service-boxes .box2, .service-boxes .box3, .service-boxes .box4 {
+    background-color: rgb(11, 6, 54);
+    width: 320px;
+    height: 350px;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-boxes a {
+    color: white;
+    font-size: 60px;
+}
+
+.service-boxes a:hover {
+    color: rgb(0, 0, 0);
+}
+
+h2#portfolio {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h4 {
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container .row1, .image-container .row2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.image-container img {
+    width: 320px;
+    height: 350px;
+    border: 2px solid rgb(18, 14, 12);
+}
+
+footer {
+    background-color: rgb(15, 6, 90);
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.footer-disclaimer p {
+    font-size: 15px;
+}
+
+@media (width:300px)
