@@ -56,8 +56,54 @@ a.icon,a:hover{
         font-size: 20px;
         padding-left: 50px;
     }
-    nav ul li a{
+    /* nav ul li a{
         font font-size
-    }
+    } */
 }
+.box{
+    background-color: dimgrey;
+    /* display: flex; */
+    padding: 30px;
+}
+.box.box-1 img{
+    width: 400px;
+    height: 560px;
+}
+.box2.overlap{
+    background-color: rgb(54, 54, 122);
+    width: 600px;
+    height: 580px;
+    margin: 30px;
+}
+.box.box-3{
+    width: 300px;
+    height: 535px;
+}
+.overlap{}
+.storeroom{  
+    margin-top: 1200px;
+    align-items: start;
+}
+.idea{
+    display: flex;
+}
+.develop{
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.process{}
+.process.steps{}
+.about{}
+.about.point{}
+.products{
+    text-decoration: none;
+}
+.products ul{
     
+}
+.products ul i{
+    text-decoration: none;
+}
