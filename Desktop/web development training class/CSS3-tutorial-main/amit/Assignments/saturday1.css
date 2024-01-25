@@ -1,0 +1,49 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      .container {
+        display: flex;
+        /* flex: 1fr; */
+        padding: 3rem;
+      }
+
+      .text-section {
+        width: 45%;
+      }
+      
+      span,
+      h1 {
+        color: orangered;
+      }
+
+      i {
+        background-color: orangered;
+        padding: 0.8rem;
+        border-radius: 50%;
+      }
+      span {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        /* font-weight: bold; */
+        letter-spacing: 0.6rem;
+        gap: 1rem;
+      }
+
+      h1 {
+        margin-top: 50vh;
+        font-size: 4rem;
+        
+      }
+
+      .image-section > img {
+        width: 100%;
+      }
+      
+      .image-section {
+        width: 55%;
+      }

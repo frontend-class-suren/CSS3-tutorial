@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.img img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+.right{
+    align-items: end;
+}
+/* .nav{
+    display: flex;
+    margin-bottom: 10px;
+    padding-top: 15px;
+} */
+.nav-bar{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph{
+    width: 50%;
+    margin-right: 20px;
+}

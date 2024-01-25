@@ -1,0 +1,42 @@
+* {
+    margin :0;
+    padding:0;
+}
+
+html , body {
+    height:100%;
+    width:100%;
+}
+.whole_body {
+    background-color: rgb(210, 250, 244);
+}
+.navigation {
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    min-width:375;
+    height:100px;
+    /* background-color:rgb(228, 132, 132); */
+    /* border-bottom: 1px solid black; */
+}
+
+img {
+    margin:25px 0px 0px 20px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    
+}
+
+.navhead {
+    margin-top: 36px;
+
+}
+.navhead a {
+
+    justify-content: center;
+    margin-right: 40px;
+    text-decoration: none;
+    color:black;
+}
+

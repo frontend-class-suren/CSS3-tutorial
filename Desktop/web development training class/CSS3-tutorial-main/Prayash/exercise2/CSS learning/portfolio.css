@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(./backgrounnd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 1;
+}
+.link>img{
+    width: 45px;
+    height: 45px;
+}
+.link{
+    display: flex;
+    align-items: center;
+}
+.link>p{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 15px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    background-size: cover;
+    width: 90%;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 1%;
+    position: sticky;
+    top: 0;
+    
+}
+.heading{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    
+    
+}
+.heading>a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+.heading>a:hover{
+    color: red;
+}
+.social_media{
+    display: flex;
+    justify-content: center;
+}
+.social_media>a{
+    color: black;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+.social_media>a:hover{
+    color: blue;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    border-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+@media (max-width: 1000px) {
+    .logo > p {
+        font-size: 20px;
+    }
+
+    .heading {
+        flex-direction: row;
+        
+        justify-content: center;
+        position:absolute;
+        
+        
+        width: 100%;
+    }
+    .heading >a{
+        font-size: 10px;
+
+    }
+    .social_media>a{
+        font-size: 15px;
+    }
+    .logo{
+        display: none;
+    }
+    .botton>p{
+        width: 100%;
+        font-size: 8px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .footer-disclaimer>p{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        background-color: bisque
+    }
+
+}
+.botton{
+    display: flex;
+    justify-content: center;
+}
+.botton>p{
+    background-color: red;
+    width: 12.5%;
+    padding: 10px;
+    color: white;
+    
+  
+}
+.botton>p:hover{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+    flex: 1;
+}
+h4{
+    font-weight: lighter;
+    text-align: center;
+}
+.box1{
+    background-color: lightseagreen;
+    width: 320px;
+    height: 350px;
+    border: 2px solid orangered;
+    
+}
+.box1>a:hover{
+    color: red;
+}
+.box2>a:hover{
+    color: red;
+}
+.box3>a:hover{
+    color: red;
+}
+.box4>a:hover{
+    color: red;
+}
+.box2{
+    background-color: orange;
+    width: 320px;
+    height: 350px;
+    border: 2px solid orangered;
+    
+}
+.box3{
+    background-color: skyblue;
+    width: 320px;
+    height: 350px;
+    border: 2px solid orangered;
+    
+    
+}
+.box4{
+    background-color: lightgreen;
+    width: 320px;
+    height: 350px;
+    border: 2px solid orangered;
+    
+}
+.boxes{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.box1>a, .box2>a, .box3>a, .box4>a{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+
+    
+}
+
+.r1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.r2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.r1>img, .r2>img{
+    width: 320px;
+    height: 350px;
+    border: 2px solid orangered;
+     }
+.footer{
+    background-color: antiquewhite;
+    font-size: 25px;
+    height: 40px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
