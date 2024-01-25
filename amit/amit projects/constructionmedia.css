@@ -51,7 +51,35 @@
     grid-template-columns: repeat(2,1fr);
     /* gap:2rem; */
 }
+
+    .mainbox {
+        /* flex-direction: column; */
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .footleft {
+        font-size: medium;
+    }
+
+    .card{
+        text-align: center;
+        width:200px;
+    }
+
+
+
+
+.footleft {
+    text-align: center;
 }
+
+.card {
+    justify-content: center;
+}
+}
+
+
 
 @media(max-width:900px) {
     .fourth_container {
@@ -63,6 +91,11 @@
     .forgrid {
         grid-template-columns:repeat(1,1fr) ;
     }
+
+    .mainbox {
+        flex-wrap: wrap;
+    }
+
 
 }
 
