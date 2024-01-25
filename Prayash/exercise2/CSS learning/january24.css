@@ -81,11 +81,11 @@ a.icon,a:hover{
 }
 .overlap{}
 .storeroom{  
-    margin-top: 1200px;
+    /* margin-top: 1200px; */
     align-items: start;
 }
 .idea{
-    display: flex;
+    /* display: flex; */
 }
 .develop{
 }
@@ -106,4 +106,31 @@ a.icon,a:hover{
 }
 .products ul i{
     text-decoration: none;
+}
+.description{
+    display: flex;
+    padding: 5px;
+}
+.description.App design{}
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.final{
+    width: 550px;
+    /* display: flex; */
+    background-color: lightskyblue;
+   margin-left: 55%;
+   border-radius: 5px;
+   text-align: center;
+}
+.footer{
+    height:85px;
+    text-align: center;
+    margin-top: 40px;
 }
