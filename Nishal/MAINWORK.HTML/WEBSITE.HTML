@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design & Experience</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .header {
+      background-color: #34495e;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 50px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      margin-right: 20px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #3498db;
+    }
+
+    .get-tickets {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .get-tickets:hover {
+      background-color: #fff;
+      color: #3498db;
+    }
+
+    .main-content {
+      padding: 20px;
+      color: #333;
+    }
+
+    .main-content h2 {
+      margin-bottom: 20px;
+    }
+
+    .main-content p {
+      margin-bottom: 20px;
+    }
+
+    .event-schedule {
+      margin: 40px 0;
+    }
+
+    .event-schedule table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .event-schedule th,
+    .event-schedule td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .event-schedule th {
+      background-color: #34495e;
+      color: #fff;
+    }
+
+    .sponsors {
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .sponsors h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .sponsors p {
+      margin-bottom: 20px;
+    }
+
+    .sponsors .photos {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .sponsors .sponsor {
+      text-align: center;
+    }
+
+    .sponsors .sponsor img {
+      max-width: 100%;
+      height: 100px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .sponsors .sponsor h3 {
+      margin-top: 10px;
+    }
+
+    .speakers {
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .speakers h2 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+
+    .speaker {
+      margin-bottom: 40px;
+    }
+
+    .speaker-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .venue {
+      background-color: #34495e;
+      color: #fff;
+      padding: 40px 20px;
+      height: 500px;
+    }
+
+    .venue h2,
+    .venue h3,
+    .venue p,
+    .venue ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .venue ul li {
+      list-style: none;
+    }
+
+    .venue .map {
+      margin-top: 20px;
+    }
+
+    .footer {
+      background-color: #34495e;
+      color: #fff;
+      padding: 20px;
+    }
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .header h1,
+      .header p {
+        text-align: center;
+      }
+
+      .event-schedule table {
+        width: 100%;
+      }
+
+      .speaker-image {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    /* Additional Styles for Responsive Design */
+    @media (max-width: 600px) {
+      .header p {
+        font-size: 1rem;
+      }
+
+      .event-schedule th,
+      .event-schedule td {
+        font-size: 0.9rem;
+      }
+    }
+
+    .photos {
+      display: flex;
+      justify-content: space-around;
+    }
+    .new-section {
+      padding: 20px;
+      background-color: #fff;
+      margin-top: 20px;
+    }
+
+    .new-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .new-section-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .new-section-content div {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .new-section-content div:last-child {
+      margin-right: 0;
+    }
+
+    .new-section-content h3 {
+      margin-top: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .new-section-content {
+        flex-direction: column;
+      }
+
+      .new-section-content div {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <img src="path-to-your-logo-image" alt="Logo">
+      </div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About Event</a>
+        <a href="#">Schedule</a>
+        <a href="#">Speakers</a>
+        <a href="#">Organisers</a>
+        <a href="#">Sponsors</a>
+      </div>
+      <a href="https://esewa.com.np/#/home" target="_blank" class="get-tickets">Get Tickets</a>
+    </div>
+
+    <div class="header">
+      <h1>Design & Experience</h1>
+      <p>04 April 2023</p>
+      <p>500 terry franscois Street San <br>fransion CA 94158</p>
+    </div>
+
+    <img src="/Nishal/sp1.jpg">
+
+    <div class="main-content">
+      <h2>About the Event</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet odio natus, nam et praesentium enim asperiores reiciendis incidunt repellat dignissimos?
+      </p>
+      <a href="https://esewa.com.np/#/home" target="_blank" class="get-tickets">Get Tickets</a>
+    </div>
+
+    <div class="event-schedule">
+      <h2>Event Schedule</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ad, aliquid mollitia sunt odio autem.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Session</th>
+            <th>Speaker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>08:45 AM</td>
+            <td>Opening Remarks</td>
+            <td>James Scott</td>
+          </tr>
+          <tr>
+            <td>01:30 PM</td>
+            <td>User Experience</td>
+            <td>Robert Reid, Ruth Keller</td>
+          </tr>
+          <td>09:00 AM</td>
+          <td>Future of Web</td>
+          <td>Jane Roberts</td>
+        </tr>
+        <tr>
+          <td>02:30 PM</td>
+          <td>AI & Web</td>
+          <td>Alex Keller</td>
+        </tr>
+        <tr>
+          <td>10:30 AM</td>
+          <td>Lorem ipsum dolor sit amet</td>
+          <td>Tina Flores</td>
+        </tr>
+        <tr>
+          <td>12:30 PM</td>
+          <td>Performance</td>
+          <td>Hank Freeman</td>
+        </tr>
+        <tr>
+          <td>03:30 PM</td>
+          <td>Design Flow</td>
+          <td>Tina Flores</td>
+        </tr>
+        <tr>
+          <td>05:00 PM</td>
+          <td>Closing Remarks</td>
+          <td>speaker: Mia Brown</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <section class="speakers">
+    <h2>Our Speakers</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, iste! Lorem ipsum dolor sit amet.</p>
+    <div class="photos">
+      <div class="speaker">
+        <img src="/Nishal/man3.png" alt="Speaker 1" class="speaker-image">
+        <h3>Speaker 1 Name</h3>
+        <p>Speaker 1 bio and title</p>
+      </div>
+      <div class="speaker">
+        <img src="/Nishal/man3.png" alt="Speaker 2" class="speaker-image">
+        <h3>Speaker 2 Name</h3>
+        <p>Speaker 2 bio and title</p>
+      </div>
+      <div class="speaker">
+        <img src="/Nishal/man4.png" alt="Speaker 3" class="speaker-image">
+        <h3>Speaker 3 Name</h3>
+        <p>Speaker 3 bio and title</p>
+      </div>
+      <div class="speaker">
+        <img src="/Nishal/Young-Man-PNG-Image.png" alt="Speaker 4" class="speaker-image">
+        <h3>Speaker 4 Name</h3>
+        <p>Speaker 4 bio and title</p>
+      </div>
+    </div>
+  </section>
+  <div class="new-section">
+    <img src="/Nishal/man.jpeg" alt="New Section Image">
+    <div class="new-section-content">
+      <div>
+        <h2>New Section Heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <a href="https://esewa.com.np/#/home" target="_blank" class="get-tickets">Get Tickets</a>
+    </div>
+  </div>
+
+  <section class="sponsors">
+    <h2>Our Sponsors</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, reprehenderit.</p>
+    <div class="photos">
+      <div class="sponsor">
+        <img src="/Nishal/spon.png" alt="Sponsor 1">
+        <h3>Sponsor 1 Name</h3>
+      </div>
+      <div class="sponsor">
+        <img src="/Nishal/sponsor.png" alt="Sponsor 2">
+        <h3>Sponsor 2 Name</h3>
+      </div>
+      <div class="sponsor">
+        <img src="/Nishal/sponsor1.png" alt="Sponsor 3">
+        <h3>Sponsor 3 Name</h3>
+      </div>
+      <div class="sponsor">
+        <img src="/Nishal/Sponsor-PNG-Image.png" alt="Sponsor 4">
+        <h3>Sponsor 4 Name</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="venue">
+    <h2>Design & Experience</h2>
+    <h3>About this Event</h3>
+    <p>
+      Our event will be held at the beautiful and modern XYZ Conference Center in the heart of downtown. The conference center offers state-of-the-art facilities, easy access to public transportation, and ample parking.
+    </p>
+    <ul>
+      <li><strong>Address:</strong> 123 Main St, Anytown, USA</li>
+      <li><strong>Date & Time:</strong> (123) 456-7890</li>
+    </ul>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.095770222004!2d-87.62979868432328!3d41.87821567958675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3c4b1253fb%3A0x36b85e0a88d61f1a!2sXYZ%20Conference%20Center!5e0!3m2!1sen!2sus!4v1675580552052!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <a href="https://esewa.com.np/#/home" target="_blank" class="get-tickets">Get Tickets</a>
+  </section>
+</div>
+
+  <footer class="footer">
+    <p>&copy; 2023 Design & Experience. All rights reserved to Nishal.</p>
+  </footer>
+</body>
+</html>
