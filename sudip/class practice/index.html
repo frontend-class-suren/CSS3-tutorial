@@ -18,3 +18,788 @@
     
 </body>
 </html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1%;
+        position: sticky;
+    
+    }
+    .logo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+    .logo h1{
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: blueviolet;
+        margin-left: 10px;
+
+    }
+    .heading{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .heading li{
+        color: black;
+        list-style-type: none;
+        
+    }
+    .heading li a{
+        color: black;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .heading li a:hover{
+        color:blueviolet;
+    }
+    .threeline{
+        display: none;
+    }
+    @media(max-width:800px){
+        .threeline{
+            display: block;
+            font-size: 40px;
+            color: blueviolet;
+            margin-right: 10px;
+        }
+        .heading{
+            display: none;
+        }
+        .snd-container{
+            flex-direction: column-reverse;
+            gap: 0;
+        }
+        .text{
+            margin-left: 0%;
+            align-self:center;
+            
+        }
+        .text h5, .text p, .text li{
+            text-align: center;
+            margin-right: 50px;
+        
+        }
+        .text a{
+            justify-content: center;
+        }
+        .btn1{
+            display: block;
+            text-align: center;
+        }
+        .lastline{
+            margin-top: -5%;
+        }
+
+        
+
+
+
+    }
+    @media(max-width:375px){
+        .img1 img{
+        width: 100%;
+        height: 100px;
+    }
+    .img1{
+       
+    }
+
+    }
+
+    .img1 img{
+        height: 750px;
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+        
+    }
+    .secret{
+        display: none;
+    }
+
+    .snd-container{
+        width: 100%;
+       
+        display: flex;
+        background-color: white;
+        margin-top: 40px;
+        justify-content: space-between;
+        gap: 15%;
+
+    }
+    .text{
+        padding-top: 60px;
+        margin-left: 6.5%;
+        width: 60%;
+    }
+    .text h5{
+        font-size: 15px;
+
+    }
+    .mainline{
+        font-size: 45px;
+    }
+    .sline{
+        font-size: 20px;
+    }
+    .text li{
+        font-size: 20px;
+        list-style-type: none;
+    }
+    .text li i{
+        color: darkcyan;
+    }
+    .btn1{
+        border: 2px solid skyblue;
+        padding: 10px 25px;
+        background-color: skyblue;
+        color: white;
+    }
+    .btn1:hover{
+        background-color: black;
+        color: white;
+    }
+    .lastline{
+        font-size: 15px;
+    }
+    @media(max-width:905px){
+        .img1 img{
+            height: 800px;
+            
+        }
+    }
+    @media(max-width:880px){
+        .btn1{
+            padding: 5px;
+        }
+    }
+    @media(max-width:535px){
+        .text .mainline{
+            font-size: 25px;
+        }
+        .text h1{
+            font-size: 10px;
+        }
+        .text p{
+            font-size: 17px;
+        }
+        .text li{
+            font-size: 17px;
+        }
+        .text a{
+            font-size: 9px;
+            padding: 6px;
+        }
+        .lastline{
+            margin-top: -15%;
+        }
+    }
+    .container3{
+        background-color: aliceblue;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .container3 h5{
+        font-size: 15px;
+        text-align: center;
+        color:red;
+    }
+    .container3 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .container3 .pp{
+        font-size: 18px;
+        text-align: center;
+    }
+    .c1 img, .c2 img, .c3 img{
+        width: 320px;
+        height: 185px;
+    }
+    .subcontainer {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-around;
+}
+    .c1 p, .c2 p, .c3 p{
+        font-size: 19px;
+    }
+@media(max-width:1085px){
+    .subcontainer {
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+    align-items: center;
+}
+  .threebox{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 60px;
+    justify-content: space-around;
+  }
+
+
+@media(max-width:500px){
+    .img1{
+        display: none;
+    }
+    .secret{
+        display: block;
+    }
+    .secret img{
+        height: 350px;
+        width: 100%;
+        
+    }
+}
+}
+.container4{
+    background-color: aliceblue;
+    padding-top: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container4 h5{
+    font-size: 15px;
+    text-align: center;
+    color:orangered;
+}
+.container4 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.container4 .pp{
+    text-align: center;
+    font-size: 18px;
+}
+.scontainer1 .rightpart img{
+    width: 550px;
+    height: 100%;
+}
+.scontainer1{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.leftpart{
+    padding-left: 3%;
+    padding-top: 10%;
+}
+.leftpart .line1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.leftpart li{
+    font-weight: bold;
+    list-style: none;
+}
+.leftpart li i{
+    color: red;
+}
+.common{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+@media(max-width:1050px){
+    .scontainer1{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .scontainer1 .rightpart img{
+       width: 100%;
+       height:300px;
+    }
+    .scontainer1 .leftpart p, .leftpart li{
+        text-align: center;
+    }
+}
+.container5{
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+}
+.container5 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.container5 p{
+    text-align: center;
+    font-size: 18px;
+}
+.container6{
+    background-color: aliceblue;
+}
+.threebox .box1{
+    border-top: 3px solid rgb(25, 202, 161);
+    width: auto;
+    padding-top: 2%;
+padding-left: 2%;
+padding-bottom: 2%;
+padding-right: 2%;
+
+}
+.threebox .box2{
+    border-top: 3px solid rgb(215, 215, 61);
+    width: auto;
+    padding-top: 2%;
+padding-left: 2%;
+padding-bottom: 2%;
+padding-right: 2%;
+
+}
+.threebox .box3{
+border-top: 3px solid rgb(100, 99, 203);
+width: auto;
+padding-top: 2%;
+padding-left: 2%;
+padding-bottom: 2%;
+padding-right: 2%;
+
+}
+.threebox .box1 i{
+    border: 2px solid rgb(25, 202, 161);
+    border-radius: 50%;
+    background-color: rgb(25, 202, 161);
+
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.threebox .box2 i{
+    border: 2px solid rgb(215, 215, 61);
+    border-radius: 50%;
+    background-color:  rgb(215, 215, 61);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.threebox .box3 i{
+    border: 2px solid rgb(100, 99, 203);
+    border-radius: 50%;
+    background-color: rgb(100, 99, 203);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.threebox .box1 h5, .threebox .box2 h5, .threebox .box3 h5{
+    font-size: 25px;
+}
+.threebox .box1 p, .threebox .box2 p, .threebox .box3 p{
+    font-size: 20px;
+}
+.threebox{
+    background-color: aliceblue;
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.box1, .box2, .box3{
+    background-color: white;
+}
+.container7{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.scontainer2{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.scontainer2 .leftpart2 img{
+    width: 550px;
+    height: 100%;
+}
+.scontainer2 .rightpart2{
+    padding-right: 12%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rightpart2 li{
+    list-style-type: none;
+    
+}
+.rightpart2 li i{
+    color: darkcyan;
+}
+@media (max-width: 1250px) {
+    .scontainer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .scontainer2 .rightpart2 {
+        text-align: center;
+    }
+
+    .scontainer2 .leftpart2 img {
+        height: auto;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        margin-top: 2%;
+    }
+
+    .scontainer2 .rightpart2 p,
+    .scontainer2 .rightpart2 li {
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    .scontainer2 .line1 {
+        text-align: center;
+    }
+    .scontainer2 .leftpart2 img {
+        max-width: 100%;
+        height: auto;
+      
+    }
+    .scontainer2{
+        width: 50%;
+    }
+    .scontainer2 .rightpart2 p{
+        text-align: center;
+        max-width: 100%;
+    }
+
+}
+@media(max-width:510px){
+    .rightpart2 .line2{
+        font-size: 2px;
+    }
+    .rightpart2{
+        font-size: 10px;
+    }
+    .rightpart2 .line2{
+        font-size: 15px;
+    }
+    .rightpart2 .line1{
+        font-size: 10px;
+        padding: 2px;
+    }
+}
+.line2{
+    font-size: 25px; font-weight: bold;
+}
+.scontainer2{
+    margin-bottom: 5%;
+}
+.container8{
+    background-color: aliceblue;
+}
+.container8 .headingg h2{
+    font-size: 30px;
+    text-align: center;
+}
+.container8 .headingg p{
+    font-size: 19px;
+    text-align: center;
+}
+.photos .p1 i{
+    font-size: 55px;
+    opacity: 0.3;
+}
+.pp1 img{
+    border-radius: 50%;
+    height: 40px;
+    width: 60px;
+}
+.pp1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.p1{
+    background-color: white;
+    max-width: auto;
+    height: auto;
+    padding: 20px;
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+@media(max-width:860px){
+    .photos{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+    .p1{
+        max-width: 80%;
+        
+    }
+
+}
+.btn2 {
+    border: 2px solid skyblue;
+    padding: 10px 25px;
+    background-color: skyblue;
+    color: white;
+    align-items: center;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.l1{
+    font-size:18px;
+}
+.container9 li{
+    list-style: none;
+}
+.container9 h2{
+    text-align: center;
+}
+.container9 p, .container9 a, .container9 li{
+    text-align: center;
+    align-items: center;
+}
+.container9{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 14, 55);
+    color: white;
+    padding: 20px;
+}
+
+
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./s.png" alt="logo of s">
+                <h1>SUDIP RAYAMAJHI</h1>
+            </div>
+            <div class="heading">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+            </div>
+            <div class="threeline">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="snd-container">
+        <div class="text">
+            <h5 style="color: darkcyan;">MAIN BENEFIT</h5>
+            <p class="mainline">What your company does <br> and how <span style="color: darkcyan;">it solves the <br> problem</span></p><br>
+            <p class="sline">Use two sentences to explain how your product / service / <br> business creates the value in your title.</p><br>
+            <li><i class="fa-solid fa-circle-check"></i> Introduce your product and or service</li><br>
+            <li> <i class="fa-solid fa-circle-check"></i> Explain why it's valuable</li><br>
+            <li><i class="fa-solid fa-circle-check"></i> Explain how it will create value</li>
+            <br><br>
+            <a href="#" class="btn1">PURCHASE FOR JUST $99 <i class="fa-solid fa-lock"></i></a><br><br><br>
+            <p class="lastline">Refund policy or link to pricing tiers.</p>
+        </div>
+        <div class="img1">
+            <img src="./photo1.jpeg" alt="">
+            
+        </div>
+        <div class="secret">
+            <img src="./photo1.jpeg" alt="" class="secret">
+        </div>
+    </section>
+    <div class="container3">
+        <h5>QUICK INTRO</h5>
+        <h2>Explain what you do</h2>
+        <p class="pp">The goal of this section is to briefly show the user what your product or services does <br> so that they can quickly understand the product or service and the context.</p>
+        <div class="subcontainer">
+            <div class="c1">
+                <img src="./img2 copy.webp" alt="">
+                <h3>1. Landing Page Templates</h3><br>
+                 <p class="ppp">In hac habitasse platea dictumst. Vivamus <br>adispiscing fermentum Lorem ipsum <br> dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="c2">
+                <img src="./img3.jpeg" alt="">
+                <h3>2. Semantically designed</h3><br>
+                <p class="ppp">In hac habitasse platea dictumst. Vivamus <br>adispiscing fermentum Lorem ipsum <br> dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="c3">
+                <img src="./img4.jpeg" alt="">
+                <h3>3. Conversion Optimized</h3><br>
+                <p class="ppp">In hac habitasse platea dictumst. Vivamus <br>adispiscing fermentum Lorem ipsum <br> dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container4">
+        <h5>THE PAIN</h5><br>
+        <h2>The problem and why it's painful</h2><br>
+        <p class="pp">Here you can critique the current solutions or what competitors are doing that are <br>ineffectual/expensive/time-consuming.</p><br><br>
+        <div class="common">
+        <div class="scontainer1">
+            <div class="leftpart">
+            <p class="line1">Pain/Problem 1</p><br>
+            <p class="line2">A short description of this problem and why it's painful. Maybe current <br> solutions are expensive.</p><br>
+            <li><i class="fa-solid fa-xmark"></i> Users scan bullet points so use then to highlight key points</li><br>
+            <li><i class="fa-solid fa-xmark"></i> It's hard to produce quality consistent design</li>
+        </div>
+        <div class="rightpart">
+            <img src="./img5.png" alt="">
+        </div>
+        </div>
+
+        <div class="scontainer1">
+            <div class="leftpart">
+            <p class="line1">Pain/Problem 2</p><br>
+            <p class="line2">A short description of this problem and why it's painful. Maybe current <br> solutions are expensive.</p><br>
+            <li><i class="fa-solid fa-xmark"></i> Users scan bullet points so use then to highlight key points</li><br>
+            <li><i class="fa-solid fa-xmark"></i> It's hard to produce quality consistent design</li>
+        </div>
+        <div class="rightpart">
+            <img src="./img5.png" alt="">
+        </div>
+        </div>
+    </div>
+<br><br><br><br>
+    </div>
+    <br><br>
+    <div class="container5">
+        <h2>There's a <span style="color: darkcyan;">better way</span> to do it.</h2><br>
+        <p>How your product / service / company can provide value and the results <br> the others can't. Explain briefly how your product helps people succeed. </p>
+    </div>
+    <div class="container6">
+        <div class="threebox">
+            <div class="box1">
+                <i class="fa-solid fa-download"></i><br><br>
+                <h5>Feature / Benefit</h5>
+                <p>Explain how your product / <br> service  / company solves Problem <br> 1. How does it work and why it's <br> better.</p>
+            </div>
+            <div class="box2">
+                <i class="fa-solid fa-cart-shopping"></i><br><br>
+                <h5>Feature / Benefit</h5>
+                <p>Explain how your product / <br> service  / company solves Problem <br> 1. How does it work and why it's <br> better.</p>
+            </div>
+            <div class="box3">
+                <i class="fa-solid fa-lock"></i><br><br>
+                <h5>Feature / Benefit</h5>
+                <p>Explain how your product / <br> service  / company solves Problem <br> 1. How does it work and why it's <br> better.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container7">
+        <div class="scontainer2">
+            <div class="leftpart2">
+                <img src="./img7.avif" alt="">
+            </div>
+            <div class="rightpart2">
+            <p class="line1" style="color: darkcyan; background-color: rgb(215, 215, 61); padding: 5px;">STEP 1</p><br>
+            <p class="line2">How it works and why it's better</p><br>
+            <p>Explain how your product / service / company solves the problem. <br>How does it work and why it's better.</p><br>
+            <li><i class="fa-regular fa-circle-check"></i>  Is it simple? So Simple Even Grandma can use it.</li><br>
+            <li><i class="fa-regular fa-circle-check"></i>  Is it technical? We built this for non-technical poeple.</li>
+        </div>
+        </div>
+        <br><br>
+        <div class="scontainer2">
+        <div class="leftpart2">
+            <img src="./img8.jpeg" alt="">
+        </div>
+        <div class="rightpart2">
+        <p class="line1" style="color: darkcyan; background-color: rgb(215, 215, 61); padding: 5px;">STEP 2</p><br>
+        <p class="line2">How it works and why it's better</p><br>
+        <p>Explain how your product / service / company solves the problem. <br>How does it work and why it's better.</p><br>
+        <li><i class="fa-regular fa-circle-check"></i>  Is it simple? So Simple Even Grandma can use it.</li><br>
+        <li><i class="fa-regular fa-circle-check"></i>  Is it technical? We built this for non-technical poeple.</li>
+       </div>
+    </div>
+      <br><br>
+      <div class="scontainer2">
+      <div class="leftpart2">
+        <img src="./img9.jpeg" alt="">
+     </div>
+     <div class="rightpart2">
+     <p class="line1" style="color: darkcyan; background-color: rgb(215, 215, 61); padding: 5px;">STEP 3</p><br>
+     <p class="line2">How it works and why it's better</p><br>
+     <p>Explain how your product / service / company solves the problem. <br>How does it work and why it's better.</p><br>
+     <li><i class="fa-regular fa-circle-check"></i>  Is it simple? So Simple Even Grandma can use it.</li><br>
+     <li><i class="fa-regular fa-circle-check"></i>  Is it technical? We built this for non-technical poeple.</li>
+     </div>
+    </div>
+ </div>
+   <div class="container8">
+    <div class="headingg">
+        <h2>Join thousands of happy customers</h2>
+        <p>Read what a handful of happy customers are saying about your product.</p>
+    </div><br><br>
+    <div class="photos">
+        <div class="p1">
+            <i class="fa fa-quote-left" aria-hidden="true"></i><br>
+            <p>Try to include testimonals that <br> mention results or reinforce <br> that value your are describing <br> above. Use <span style="font-weight: bold;">bold</span> words to help <br> draw attention to the benefit <br> customers receive. </p>
+           <br> <div class="pp1">
+                <img src="./img10.jpeg" alt="">
+                <p><span style="font-weight: bold;">Jane Doe</span> <br> Product Manager, Google</p>
+            </div>
+        </div>
+        <div class="p1">
+            <i class="fa fa-quote-left" aria-hidden="true"></i><br>
+            <p>Try to include testimonals that <br> mention results or reinforce <br> that value your are describing <br> above. Use <span style="font-weight: bold;">bold</span> words to help <br> draw attention to the benefit <br> customers receive. </p>
+           <br> <div class="pp1">
+                <img src="./img10.jpeg" alt="">
+                <p><span style="font-weight: bold;">Jane Doe</span> <br> Product Manager, Google</p>
+            </div>
+        </div>
+        <div class="p1">
+            <i class="fa fa-quote-left" aria-hidden="true"></i><br>
+            <p>Try to include testimonals that <br> mention results or reinforce <br> that value your are describing <br> above. Use <span style="font-weight: bold;">bold</span> words to help <br> draw attention to the benefit <br> customers receive. </p>
+           <br> <div class="pp1">
+                <img src="./img10.jpeg" alt="">
+                <p><span style="font-weight: bold;">Jane Doe</span> <br> Product Manager, Google</p>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="container9">
+    <h2>Ready to start receiving benefits?</h2>
+    <p class="l1">You'll get all these features and benefits.</p><br>
+    <a class="btn2" href="#">PURCHASE FOR JUST $99 <i class="fa-solid fa-lock"></i></a>
+    <p class="l2">Refund policy or pricing tiers.</p>
+    <li><i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit amet.</li>
+    <li><i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit amet.</li>
+    <li><i class="fa-solid fa-circle-check"></i> Lorem ipsum dolor sit amet.</li>
+   </div>
+    
+
+</body>
+</html> -->
