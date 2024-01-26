@@ -8,7 +8,8 @@
     body {
       font-family: Arial, sans-serif;
       background-color: #f2f2f2;
-      margin: 0;
+      margin-left: 2%;
+      margin-right: 2%;
     }
 
     .container1{
@@ -23,11 +24,10 @@
       overflow: hidden;
       /* height: 60vh; */
     }
-.forimg img {
-    width:auto;
-    height: 500px;
-
-}
+    .container1-forimg img{
+      width: 100%;
+      height: 600px;
+    }
 
     .header {
       background-color: #34495e;
@@ -158,12 +158,14 @@
 
     .speaker {
       margin-bottom: 40px;
+      margin-left: auto;
+      margin-right: auto;
+
     }
 
     .speaker-image {
       width: 150px;
       height: 150px;
-      border-radius: 50%;
       object-fit: cover;
       margin-bottom: 20px;
     }
@@ -236,6 +238,8 @@
       padding: 20px;
       background-color: #fff;
       margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
     }
 
     .new-section img {
