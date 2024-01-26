@@ -9,16 +9,18 @@ html, body {
 }
 
 div {
-    height:200px;
-    width:200px;
+    height:300px;
+    width:300px;
     background-color: lightseagreen;
-    transition: 2s;
+    transition: 4s;
     margin:auto;
 }
 
 div:hover {
-    background-image: url(/amit/pictures/canada.avif);
-    background-color: lightblue;
+    background-image: url(/amit/pictures/astronaut.png);
+    background-size:cover;
+    background-position:center ;
+    background-color: rgb(193, 236, 251);
     border-radius: 50%;
     /* margin-left: 200px; */
 }
