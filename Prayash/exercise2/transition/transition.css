@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    height: 0;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+
+    box-sizing: border-box;
+}
+.triangle-down{
+    /* height: 300px;
+    width: 300px;
+    background-color: purple;
+
+ */
+
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 300px solid rgb(61, 49, 49);
+    margin: auto;
+    margin-top: 20px;
+    transition: 2s;
+
+  }
+  .triangle-down:hover{
+    background-image: url(/Prayash/triangle-up.jpeg);
+    /* background-size: cover; */
+    border-radius: 50%;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px;
+  }
+  /* .triangle-down.delay{
+    transition-delay: 1s;
+    transition-property: red;
+  } */
+
+.square{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    /* border-radius: 50%; */
+    transition: 2s;
+}
+.square:hover{
+    background-image: url(/Prayash/portfolio\ logo.jpeg);
+    border-radius: 50%;
+    background-size: cover;
+}

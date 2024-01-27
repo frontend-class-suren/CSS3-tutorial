@@ -65,27 +65,49 @@ a.icon,a:hover{
     /* display: flex; */
     padding: 30px;
 }
-.box.box-1 img{
+.box-1{
+    background-color: aquamarine;
     width: 400px;
-    height: 560px;
+    height: 480px;
+    margin-top: 100px;
+    margin-left: 15px;
+    position: absolute;
+    border-radius: 12px;
 }
-.box2.overlap{
+.box-2{
+    color: white;
     background-color: rgb(54, 54, 122);
-    width: 600px;
+    width: 825px;
     height: 580px;
     margin: 30px;
+    margin-left: 300px;
+    position: absolute;
+    text-align: center;
+    border-radius: 12px;
 }
-.box.box-3{
-    width: 300px;
-    height: 535px;
+.box-2 heading{
+    margin-top: 100px;
 }
-.overlap{}
+.box-2 p{
+    float: right;
+}
+.box-3{
+    margin-top: 150px;
+    margin-left: 85px;
+    position: absolute;
+}
+.box-3 img{
+    width: 380px;
+    height: 500px;
+    border-radius: 12px;
+}
 .storeroom{  
-    /* margin-top: 1200px; */
+    margin-top: 770px;
     align-items: start;
 }
 .idea{
-    /* display: flex; */
+    display: flex;
+    gap: 200px;
 }
 .develop{
 }
