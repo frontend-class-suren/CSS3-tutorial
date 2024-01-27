@@ -1,0 +1,26 @@
+.container {
+    background-color: lightsalmon;
+    width:50vw;
+    height:40vh;
+}
+
+.box1 {
+    background-color: lightsteelblue;
+    width:8vw;
+    border-radius: 50%;
+    height:8vh;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay:2s;
+}
+
+/* .translate { */
+    /* transform:translateX(10vw) translateY(10vh) ; */
+    /* background-color: rgb(225, 104, 104); */
+/* } */
+
+.box1:hover {
+    transform:translateX(25vw) translateY(20vh) ;
+    background-color: rgb(26, 1, 1);
+}

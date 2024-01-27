@@ -1,0 +1,57 @@
+* {
+    padding:0;
+    margin:0;
+
+}
+
+html , body {
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+
+
+.firstone {
+    justify-self: left;
+    height:200px;
+    width:200px;
+    background-color:lightpink;
+    transition: 2s ease-out;
+    transition-delay: 1s;
+    /* margin:auto; */
+}
+
+.firstone:hover {
+    background-color: rgb(193, 236, 251);
+    /* transition:step-start; */
+    border-radius: 50%;
+}
+
+.target {
+    /* margin-top: 5rem; */
+    font-size: 10px;
+}
+
+.target:hover {
+    font-size: 50px;
+    transition: font-size 5s 1s;
+}
+
+.secondone {
+    /* height:400px; */
+    /* width:210px; */
+    padding:5px;
+    font-size: 20px;
+    border:1px solid black;
+    background-color: bisque;
+    /* transition:  3s; */
+    /* transition-delay: 10s; */
+    
+}
+.secondone:hover {
+    text-align: center;
+    transition: 5s ease-in-out;
+    
+}
+
