@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique CSS Transitions Example</title>
+    <style>
+        .one-circle {
+            width: 150px;
+            height: 150px;
+            background-color: #FFCE56;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 2s;
+            background-image: url(/Nishal/batman.jpg);
+        }
+        .one-circle:hover p {
+            font-size: 24px;
+            color: #4BC0C0;
+        }
+        .one-circle:hover {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .two {
+            width: 100px;
+            height: 100px;
+            background-color: #36A2EB;
+            border-radius: 20px;
+            transition: width 0.5s ease-in, height 0.5s ease-in, background-color 0.5s ease-in;
+        }
+        .para {
+            display: none;
+            padding: 15px;
+        }
+        .two:hover .para {
+            display: block;
+        }
+        
+        .three {
+            width: 150px;
+            height: 150px;
+            background-color: #FF6384;
+            border-radius: 50%;
+            transition: margin-top 2s;
+        }
+        .three:hover {
+            background-color: #FFCE56;
+            margin-top: 30px;
+        }
+        
+        .four {
+            width: 120px;
+            height: 120px;
+            background-color: #4BC0C0;
+            border-radius: 10px;
+            transition: 2s;
+        }
+        .pandey {
+            font-size: 20px;
+            color: #FFCE56;
+            display: none;
+            margin-top: 0%;
+        }
+        .four:hover .pandey {
+            display: block;
+        }
+        
+        .five {
+            transition: 3s;
+            background-color: #FF9F40;
+            height: 50px;
+            width: 150px;
+            padding: 10px;
+            border-radius: 25px;
+        }
+        .five:hover .u {
+            display: block;
+        }
+        .five:hover .s {
+            display: none;
+        }
+        .u {
+            display: none;
+        }
+
+        .one-expand {
+            width: 150px;
+            height: 150px;
+            background-color: #4BC0C0;
+            border-radius: 50%;
+            transition: height 2s, width 2s;
+            transition-duration: 0.5s;
+        }
+        .one-expand:hover {
+            background-color: #FF6384;
+            width: 100%;
+            height: 350px;
+        } 
+        
+        .icon-button {
+            transition: transform 2s ease;
+            position: relative;
+        }
+        .icon-button:hover {
+            transform: rotate(360deg);
+            transition-delay: 0.2s;
+        }
+        .unique-button {
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .unique-button:hover {
+            transform: scale(1.1);
+            transition-delay: 0.2s;
+        }
+        .three-2-content {
+            max-height: 0;
+            transition: max-height 0.5s ease;
+            transition-delay: 1s;
+        }
+        .three-2:hover .three-2-content {
+            max-height: 200px;
+            display: block;
+        }
+
+        .example1 {
+            background-color: #36A2EB;
+            transition: background-color 0.3s ease;
+        }
+        .example1:hover {
+            background-color: #FFCE56;
+        }
+        .example2 {
+            transition: transform 0.3s ease;
+        }
+        .example2:hover {
+            transform: scale(0.9);
+        }
+        .example3 {
+            opacity: 0.2;
+            transition: opacity 0.3s ease;
+        }
+        .example3:hover {
+            opacity: 1;
+        }
+        .example4 {
+            width: 120px;
+            transition: width 0.3s ease;
+        }
+        .example4:hover {
+            width: 180px;
+        }
+        .example5 {
+            border-bottom: 5px solid #de0030;
+            border-radius: 5px;
+            transition: border-bottom 0.3s ease;
+        }
+        .example5:hover {
+            border-bottom: 5px solid #FFCE56;
+        }
+
+        .Example1 {
+            transition: transform 1s ease-in;
+        }
+        .Example1:hover {
+            transform: scale(0.8);
+        }
+        .Example2 {
+            transition: background-color 0.5s ease-out;
+        }
+        .Example2:hover {
+            background-color: #440808;
+        }
+        .Example3 {
+            transition: opacity 0.5s ease-in-out;
+        }
+        .Example3:hover {
+            opacity: 0.7;
+        }
+        .Example4 {
+            transition: width 1s steps(5, end);
+        }
+        .Example4:hover {
+            width: 250px;
+        }
+        .Example5 {
+            transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        }
+        .Example5:hover {
+            transform: rotate(270deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>25 Transitions Example</h1>
+    <ol>
+        <li><div class="one-circle"><p>Nishal Pandey</p></div></li>
+        <li><div class="two"><p class="para">Nishal Pandey</p></div></li>
+        <li><div class="three"></div></li>
+        <li><div class="four"><p class="pandey">It's me, Nishal Pandey!</p></div></li>
+        <li><div class="five"><p class="s">Hover here</p><p class="u">This is Nishal Pandey</p></div></li>
+    </ol>
+    <br><br>
+    <h1>Unique Transition Delay</h1>
+    <ol>
+        <li><div class="one-expand"><button class="icon-button">+</button></div></li><br><br>
+        <br><li><div class="two"><button class="unique-button">Hover me</button></div></li><br>
+        <br>
+        <li><div class="three-2"><div class="three-2-content">Accordion Content</div></div></li>
+        <li><div class="four"></div></li>
+        <li><div class="five"></div></li>
+    </ol>
+    <br><br>
+    <h1>Unique Transition Duration</h1>
+    <ol>
+        <li><div class="one-expand"></div></li>
+        <li><div class="two"></div></li>
+        <li><div class="three"></div></li>
+        <li><div class="four"></div></li>
+        <li><div class="five"></div></li>
+    </ol>
+    <br><br>
+    <h1>Unique Transition Property</h1>
+    <ol>
+        <li><div class="example1">color change</div></li>
+        <li><div class="example2">scale effect</div></li>
+        <li><div class="example3">opacity transition</div></li>
+        <li><div class="example4">width change</div></li>
+        <li><div class="example5">border-bottom color change</div></li>
+    </ol>
+    <br><br>
+    <h1>Unique Transition Timing Function</h1>
+    <ol>
+        <div class="Example1">Ease-in </div>
+        <div class="Example2">Ease-out</div>
+        <div class="Example3">Ease-in-out </div>
+        <div class="Example4">Steps</div>
+        <div class="Example5">Cubic-bezier</div>
+    </ol>
+</body>
+</html>

@@ -12,7 +12,8 @@ div {
     height:300px;
     width:300px;
     background-color: lightseagreen;
-    transition: 4s;
+    transition: 4s ;
+    
     transition-delay: 1s;
     margin:auto;
 }
@@ -22,7 +23,8 @@ div:hover {
     background-size:cover;
     background-position:center ;
     background-color: rgb(193, 236, 251);
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    transform: rotate(360deg);
     
     /* margin:0px 20px 40px 20px; */
 }
