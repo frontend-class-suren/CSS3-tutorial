@@ -9,12 +9,6 @@ html, body{
     box-sizing: border-box;
 }
 .triangle-down{
-    /* height: 300px;
-    width: 300px;
-    background-color: purple;
-
- */
-
     width: 0;
     height: 0;
     border-left: 150px solid transparent;
@@ -23,15 +17,14 @@ html, body{
     margin: auto;
     margin-top: 20px;
     transition: 2s;
-
   }
   .triangle-down:hover{
-    background-image: url(/Prayash/triangle-up.jpeg);
-    /* background-size: cover; */
+    background-image: url(/Prayash/logo/6a26db1e-3998-4341-9fa2-3ffa63635496.jpeg);
+    background-size: cover;
     border-radius: 50%;
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
-    border-bottom: 300px;
+    border-top : 300px;
   }
   /* .triangle-down.delay{
     transition-delay: 1s;
@@ -47,7 +40,7 @@ html, body{
     transition: 2s;
 }
 .square:hover{
-    background-image: url(/Prayash/portfolio\ logo.jpeg);
+    background-image: url(/Prayash/logo/_Eyeball_\ Sticker\ for\ Sale\ by\ KH-Designs.jpeg);
     border-radius: 50%;
     background-size: cover;
 }

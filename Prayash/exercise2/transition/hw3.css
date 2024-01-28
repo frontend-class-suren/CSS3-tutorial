@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    height: 0;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+div{
+    width: 500px;
+    height: 300px;
+    border: 200px solid red;
+    background-color: greenyellow;
+    margin: auto;
+    transition: 3s;
+    transition-delay: initial;
+    /* margin-top: 200px; */
+}
+div:hover{
+    background-image: url(/Prayash/logo/INSPIRATION.gif);
+    background-size: cover;
+    border-radius: 70%;
+}
+/* .reactive{
+    width: 300px;
+    height: 100px:
+    margin-right: 400px;
+    transition-timing-function: ease-out;
+} */

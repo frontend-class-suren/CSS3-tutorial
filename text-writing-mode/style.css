@@ -1,0 +1,17 @@
+p {   
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    font-size: 23px;
+  }
+  #tb {
+    writing-mode: horizontal-tb;
+  }
+  
+  #lr {
+    writing-mode: vertical-lr;
+  }
+  
+  #rl {
+     writing-mode: vertical-rl;
+  }

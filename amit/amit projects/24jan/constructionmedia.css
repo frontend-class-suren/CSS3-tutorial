@@ -14,6 +14,10 @@
         
     }
 
+    /* .first_container {
+        background-image:500px;
+    } */
+
 
 
 
@@ -24,6 +28,7 @@
     .second_container {
         flex-direction: column;
         justify-items: center;
+        text-align: center;
     }
 
     .third_container {

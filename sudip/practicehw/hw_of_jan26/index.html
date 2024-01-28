@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .one{
+        width: 100px;
+        height: 100px;
+        background-color: blanchedalmond;
+        transition: 2s;
+    }
+    .one:hover p{
+        font-size: 50px;
+        color: orangered;
+    }
+    .one:hover{
+        width: 200px;
+        height: 200px;
+    }
+    .two {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  transition: width 0.5s ease-in, height 0.5s ease-in, background-color 0.5s ease-in;
+}
+
+.para {
+  display: none;
+  padding: 15px;
+}
+
+.two:hover .para {
+  display: block;
+}
+
+    
+
+    .three{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        transition: margin-top 2s;
+
+    }
+    .three:hover{
+        background-color: aqua;
+        margin-top: 7%;
+    }
+    .four{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        transition: 2s;
+    }
+    .sudip{
+        font-size: 20px;
+        color: aliceblue;
+        display: none;
+        margin-top: 0%;
+    }
+    .four:hover .sudip{
+        display: block;
+    }
+    
+
+    .five{
+        transition: 5s;
+        background-color: gold;
+        height: 50px;
+        width: 100px;
+        padding: 10px;
+    }
+    .five:hover .u{
+        display: block;
+    }
+    .five:hover .s{
+        display: none;
+    }
+
+    .u{
+        display: none;
+    }
+
+
+
+
+
+
+    .one-3{
+        width: 100px;
+        height: 100px;
+        background-color: blanchedalmond;
+        transition: height 2s, width 2s;
+        transition-duration: 0.5s;
+    }
+    .one-3:hover{
+        background-color: red;
+        width: 100%;
+        height: 650px;
+    } 
+    .icon-button {
+      transition: transform 2s ease;
+    }
+
+    .icon-button:hover {
+      transform: rotate(360deg);
+      transition-delay: 0.2s;
+    }
+    button {
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+      transition-delay: 0.2s;
+    }
+
+    .three-2-content {
+      max-height: 0;
+      transition: max-height 0.5s ease;
+      transition-delay: 1s;
+    }
+
+    .three-2:hover .three-2-content {
+      max-height: 200px;
+      display: block;
+      
+    }
+    .one p{
+        font-size: 20px;
+        color: orange;
+        padding: 10px;
+    }
+
+
+    .example1 {
+      background-color: lightblue;
+      transition: background-color 0.3s ease;
+    }
+    .example1:hover {
+      background-color: lightcoral;
+    }
+
+
+    .example2 {
+      transition: transform 0.3s ease;
+    }
+    .example2:hover {
+      transform: scale(0.9);
+    }
+
+
+    .example3 {
+      opacity: 0.2;
+      transition: opacity 0.3s ease;
+    }
+    .example3:hover {
+      opacity: 1;
+    }
+
+
+    .example4 {
+      width: 100px;
+      transition: width 0.3s ease;
+    }
+    .example4:hover {
+      width: 150px;
+    }
+
+
+    .example5 {
+        border-bottom: 5px solid green;
+      border-radius: 5px;
+      transition: border-bottom 0.3s ease;
+    }
+    .example5:hover {
+
+      border-bottom: 5px solid navy;
+    }
+
+
+
+    .Example1 {
+      transition: transform 1s ease-in;
+    }
+    .Example1:hover {
+      transform: scale(0.9);
+    }
+
+
+    .Example2 {
+      transition: background-color 0.5s ease-out;
+    }
+    .Example2:hover {
+      background-color: lightcoral;
+    }
+
+
+    .Example3 {
+      transition: opacity 0.5s ease-in-out;
+    }
+    .Example3:hover {
+      opacity: 0.5;
+    }
+
+
+    .Example4 {
+      transition: width 1s steps(5, end);
+    }
+    .Example4:hover {
+      width: 200px;
+    }
+
+
+    .Example5 {
+      transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    }
+    .Example5:hover {
+      transform: rotate(180deg);
+    }
+
+</style>
+<body>
+    <h1>Transition</h1>
+   <ol><li><div class="one"><p>Sudip</p></div></li>
+   <li><div class="two"><p class="para">Rayamajhi</p></div></li>
+   <li><div class="three"></div></li>
+   <li><div class="four"><p class="sudip">Its sudip.....</p></div></li>
+   <li><div class="five"><p class="s">Hover here</p><p class="u">This is sudip...</p></div></li></ol>
+   <br><br>
+   <h1>Transition delay</h1>
+   <ol>
+    <li><div class="one-2"><button class="icon-button">🚀</button></div></li>
+    <li><div class="two-2"><button>Hover me</button></div></li>
+    <li><div class="three-2"><div class="three-2-content">Accordion Content</div></div></li>
+    <li><div class="four-2"></div></li>
+    <li><div class="five-2"></div></li>
+   </ol>
+   <br><br>
+   <h1>Transition duration</h1>
+   <ol>
+    <li><div class="one-3"></div></li>
+    <li><div class="two-3"></div></li>
+    <li><div class="three-3"></div></li>
+    <li><div class="four-3"></div></li>
+    <li><div class="five-3"></div></li>
+   </ol>
+   <br><br>
+   <h1>Transition Property</h1>
+   <ol>
+    <li><div class="example1">Hover me for color change</div></li>
+    <li><div class="example2">Hover me for scale effect</div></li>
+    <li><div class="example3">Hover me for opacity transition</div></li>
+    <li>  <div class="example4">Hover me for width change</div></li>
+    <li><div class="example5">Hover me for border-bottom color change</div></div></li>
+   </ol>
+   <br><br>
+   <h1>Transition-timing-function</h1>
+   <ol>
+    <div class="Example1">Ease-in timing function</div>
+    <div class="Example2">Ease-out timing function</div>
+    <div class="Example3">Ease-in-out timing function</div>
+    <div class="Example4">Steps timing function</div>
+    <div class="Example5">Cubic-bezier timing function</div>
+   </ol>
+</body>
+</html>

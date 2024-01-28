@@ -1,0 +1,28 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+html, body {
+    height:100vh;
+    width:100vw;
+}
+
+div {
+    height:300px;
+    width:300px;
+    background-color: lightseagreen;
+    transition: 4s;
+    transition-delay: 1s;
+    margin:auto;
+}
+
+div:hover {
+    background-image: url(/amit/pictures/astronaut.png);
+    background-size:cover;
+    background-position:center ;
+    background-color: rgb(193, 236, 251);
+    border-radius: 50%;
+    
+    /* margin:0px 20px 40px 20px; */
+}

@@ -1,0 +1,22 @@
+*{
+    width: 0;
+    height: 0;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    box-sizing: border-box;
+}
+div{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    box-shadow: 35px 35px 0 0 silver;
+    margin: auto;
+    transition: 2s;
+}
+div:hover{
+    box-shadow: transparent;
+    background-color: yellow;
+}

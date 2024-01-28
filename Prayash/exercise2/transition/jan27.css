@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    height: 0;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+
+    box-sizing: border-box;
+}
+div{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    /* margin-top: 100px; */
+    border-top: 200px solid blueviolet;
+    border-bottom: 200px solid purple;
+    transition: width 5s, height 2s;
+    transition-delay: 4s;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+    /* transition-property:inherit; */
+    
+
+}
+div:hover{
+    border-radius: 200px;
+    background-color:saddlebrown;
+    background-image: url(/Prayash/logo/timing.gif);
+    background-size: cover;
+    /* background-position: left; */
+}

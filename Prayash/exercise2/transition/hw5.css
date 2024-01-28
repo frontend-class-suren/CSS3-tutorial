@@ -1,0 +1,30 @@
+*{
+    width: 0;
+    height: 0;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: chocolate;
+}
+div{
+    background-color: gold;
+    width: 485px;
+    height: 600px;
+    margin: auto;
+    display: block;
+    /* margin-top: 150px; */
+    /* border: 100px solid brown; */
+    /* width: 126px;
+    height: 180px; */
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+div:hover{
+    background-image: url(/Prayash/logo/26ac7d1f-c84d-43be-ab8f-789360f4316e.jpeg);
+    box-sizing: cover;
+    transition: 3s;
+    transition-duration: 10s;
+    /* transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+    /* transition-timing-function: linear; */
+}

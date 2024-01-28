@@ -1,0 +1,27 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+html, body{
+
+    width: 100vw;
+    height: 100vh;
+
+    box-sizing: border-box;
+}
+div{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin: auto;
+    align-items: center;
+    transition: 2s;
+}
+div:hover{
+    /* background-color: rgb(126, 224, 21); */
+    background-image: url(images/img1.jpg);
+    border-radius: 50%;
+    /* margin-left: 70%; */
+    /* transition: border-radius:40%; */
+}

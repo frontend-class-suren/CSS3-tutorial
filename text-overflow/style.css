@@ -1,0 +1,27 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+html, body{
+
+    width: 100vw;
+    height: 100vh;
+
+    box-sizing: border-box;
+}
+p.test1 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  
+  p.test2 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+       overflow:hidden;
+    text-overflow: ellipsis;
+  }
