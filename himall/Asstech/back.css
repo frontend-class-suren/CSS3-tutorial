@@ -114,3 +114,29 @@ nav ul li a:hover {
 form {
     margin: 2.4rem 0;
 }
+
+input {
+    font-size: 1.8rem;
+}
+
+input[type=text],
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 1.2rem 0;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color:#F17E24;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
