@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    animation: moveRight 2s linear infinite;
+  }
+  
+  @keyframes moveRight {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: calc(100% - 50px); /* Adjust to the width of the square */
+    }
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container {
+    position: relative;
+    width: 80%; /* Define the width of the animation area */
+    height: 200px; /* Define the height of the animation area */
+    margin: 100px auto; /* Center the container vertically */
+    border: 2px solid #333; /* Border for visualization */
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    animation: moveRight 2s ease-in-out infinite;
+  }
+  
+  @keyframes moveRight {
+    0%, 100% {
+      left: 0;
+    }
+    50% {
+      left: calc(100% - 50px);
+    }
+  }
+    
