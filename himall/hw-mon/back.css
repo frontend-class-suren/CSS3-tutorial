@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+/* Base Styling */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+html, body{
+    width: 100vw;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    /* 1.6*10 = 16px */
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
