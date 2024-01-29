@@ -17,8 +17,9 @@ div{
     transition: 2s;
 }
 div:hover{
-    /* box-shadow: transparent; */
-
     box-shadow: none;
     background-color: yellow;
+}
+div:hover body{
+    background-color: white;
 }
