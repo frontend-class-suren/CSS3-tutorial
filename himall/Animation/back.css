@@ -1,20 +1,26 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    
 }
 html, body{
     width: 100vw;
     height: 100vh;
 }
-div{
+.loop {
     width: 100px;
     height: 100px;
+    position: relative;
     background-color: rgb(5, 71, 239);
     animation-name: example;
     animation-duration: 4s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
 }
 @keyframes example {
-    from {background-color:cadetblue}
-    to {background-color: yellow;}
+   0% {background-color:cadetblue; left: 30px; top: 30px;}
+   25% {background-color: darkgreen; left: 140px; top: 0px;}
+   50% {background-color: rgb(58, 77, 81); left: 140px; top: 60px;}
+   75% {background-color: rgb(224, 67, 4); left: 25px; top: 60px;}
+   100% {background-color: yellow; left: 30px; top: 30px;}
 }
