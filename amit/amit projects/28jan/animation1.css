@@ -1,5 +1,7 @@
-
-
+*{
+    padding:0;
+    margin:0;
+}
 .loading {
     margin:300px 720px;
     border-radius: 50%;
