@@ -1,0 +1,32 @@
+*{
+    width: 0%;
+    height: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+@keyframes boat{
+    from
+    0% {background-color:crimson};
+    25% {background-color: darkcyan};
+    50% {background-color: green};
+    to 100% {background-color: yellow};
+}
+.boat{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    animation-name: boat;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+    animation-direction: reverse: -9s;
+}
+/* .green{
+    width: 300px;
+    height: 400px;
+    background-color: green;
+} */

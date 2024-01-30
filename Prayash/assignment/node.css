@@ -1,0 +1,232 @@
+    *{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+
+    }
+    header{
+        background-image:url(/Prayash/Premium\ Photo\ _\ Modern\ black\ office\ desk\ with\ office\ supplies\ and\ copy\ space\ for\ presentation\ background.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 550px;
+        color: white;
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .dropdown-content{
+        display: none;
+        color: white;
+        /* color: black; */
+        
+    }
+    /* .dropdown-content a{
+        color: black;
+    } */
+    .dropdown a{
+        color: white;
+        font-size: 18px;
+
+    }
+    .dropdown-content li{
+        list-style: none;
+
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+        text-align: center;
+
+    }
+    .dropdown i{
+        font-size: 10px;
+    }
+    .login a{
+        color: white;
+        background-color: red;
+        padding: 10px;
+        font-size:18px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        /* width: 100%; */
+        margin-left: 2%;
+        margin-right: 2%;
+        height: auto;
+        /* margin-top: 20px; */
+        align-items: center;
+        padding-top: 1%;
+
+
+    }
+    .heading{
+        display: flex;
+        
+    }
+    .heading .dropdown a:hover{
+        color: red;
+    }
+    .dropdown .dropdown-content a:hover{
+        color: orange;
+    }
+    .heading .dropdown{
+        position: relative; 
+        padding: 10px;
+        display: inline-block;
+    }
+    .login a:hover{
+        background-color: white;
+        color: red;
+    }
+
+    .login i{
+        font-size: 25px;
+        display: none;
+    }
+    @media(max-width:920px){
+        .login i{
+            display: block;
+        }
+        .heading{
+            display: none;
+
+        }
+        .login a{
+            display: none;
+        }
+    }
+    h2{
+        font-size: 45px;
+        text-align: center;
+        font-weight: lighter;
+    }
+    .paragraph1{
+        text-align: center;
+        font-size: 20px;
+    }
+    @media(max-width:695px){
+        h2{
+            font-size: 35px;
+        }
+        .paragraph1{
+            font-size: 15px;
+        }
+    }
+.srchbtn{
+    background-color: red;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+}
+.srchbtn:hover{
+    background-color: white;
+    color: red;
+}
+.search{
+    width: 60%;
+    height: 39px;
+
+}
+.srch{
+    display: flex;
+    justify-content: center;
+}
+.h3{
+    font-size: 35px;
+    text-align: center;
+}
+.paragraph2{
+    text-align: center;
+    font-size: 15px;
+    color:rgb(104, 89, 89);
+}
+.emailsms{
+    border: 2px solid blue;
+    width: 12%;
+    margin-left: 4%;
+    padding: 5px;
+}
+.emailsms p{
+    font-size: 13px;
+    color: blue;
+    
+}
+.emailsms p i{
+    color: blue;
+}
+@media(max-width:1364px){
+    .emailsms{
+        padding: 2px;
+        width: 8%;
+    }
+    .emailsms p{
+    font-size: 8px;
+
+    
+}
+}
+.box1{
+    border: 2px solid black;
+    width: 280px;
+    height: 320px;
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    
+}
+.boxs2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+.boxxs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+.boxxs2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+.boxxs .box1, .boxxs2 .box1{
+    background-color: white;
+}
+.body2{
+    background-color: aliceblue;
+}
+.body2 h2{
+    font-size: 40px;
+    text-align: center;
+}
+.body2 p{
+    font-size: 20px;
+    text-align: center;
+}
+.line{
+    border-bottom: 2px solid black;
+    width: 85%;
+    margin-top: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}

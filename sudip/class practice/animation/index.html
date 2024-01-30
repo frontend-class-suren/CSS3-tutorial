@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html, body{
+        width: 100vw;
+        height: 100vh;
+    }
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    @keyframes example{
+        0% {background-color: aqua; left: 0px; top: 0px;}
+        25% {background-color: yellow; left: 25px top 5px;}
+    }
+    
+</style>
+<body>
+    <div></div>
+</body>
+</html>

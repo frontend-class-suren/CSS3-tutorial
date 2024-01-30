@@ -1,0 +1,55 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.box1 {
+
+display: flex;
+justify-content: center;
+margin-top: 300px;
+}
+
+
+button {
+    
+    background: transparent;
+    color: rgb(255, 145, 0);
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: 20px 30px;
+    perspective: 15rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);
+  }
+  
+  button::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: linear-gradient(320deg, rgba(149,215,242,0.5) , rgba(40,86,95,0.5));
+    z-index: 1;
+    transition: background 3s;
+  }
+  
+  button:hover::before {
+    animation: rotate 1s;
+    transition: all 0.5s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateY(180deg);
+    }
+  
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
