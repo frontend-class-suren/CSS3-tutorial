@@ -12,17 +12,15 @@ margin-top: 300px;
 
 
 button {
-    
     background: transparent;
     color: rgb(255, 145, 0);
     font-size: 17px;
     text-transform: uppercase;
-    font-weight: 600;
+    /* font-weight: 600; */
     border: none;
     padding: 20px 30px;
-    perspective: 15rem;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308); */
   }
   
   button::before {

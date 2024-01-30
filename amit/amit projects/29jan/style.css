@@ -10,16 +10,26 @@ html , body {
 header {
 
     font-family: 'Poppins';
-    background-color:rgb(173, 216, 230, 0.6);
+    width:100%;
+    height:100vh;
+    background-color:rgba(130, 132, 133, 0.6);
+    background-image: url("https://images.pexels.com/photos/3783725/pexels-photo-3783725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+    
+    
 }
 
 .navigation-bar {
-    padding-top: 5px;
+    padding-top: 10px;
     display:flex;
     /* flex-direction: row; */
     justify-content: space-around;
 }
 .title-section a{
+    
     text-decoration: none;
     color:white;
     transition:color 0.3s;
@@ -38,7 +48,7 @@ header {
 }
 
 .nav-header {
-    margin:20px 20px;
+    margin:14px 20px;
 }
 
 .nav-header ul {
@@ -46,8 +56,9 @@ header {
 }
 
 .nav-header a{
+    font-size: 15px;
     font-weight: 600;
-    margin:0px 20px;
+    margin:0px 10px;
     /* border-radius: 5px; */
     text-decoration: none;
     color:rgb(255, 255, 255);
@@ -73,20 +84,89 @@ header {
 }
 
 button {
-    width: 110px;
+    width: 100px;
     height: 38px;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
+    border:none;
     /* border-radius: 45px; */
     transition: all 0.3s;
     cursor: pointer;
     color:white;
     background:rgb(245, 70, 51);
-    font-size: 16px;
-    font-weight: 550;
+    font-size: 15px;
+    font-weight: 400;
         
 }
 
 button:hover {
-    color: white;
-    font-size: 17px;
+    color:rgb(245, 70, 51);
+    border:1px solid rgb(245, 70, 51);
+    background-color: transparent;
+    /* font-size: 17px; */
   }
+
+  .signin i {
+    display: none;
+    margin-top: 2px;
+    font-size: 16px;
+    color:white;
+  }
+
+
+
+  @media (max-width:1090px) {
+
+    .nav-header a {
+        font-size: small;
+    }
+
+    .button {
+        font-size: small;
+        width:80px;
+        height: 15px;
+    }
+
+
+
+  }
+
+  @media (max-width:1015px) {
+    .signin button{
+        display: none;
+    }
+}
+
+    @media (max-width:915px){
+        .nav-header a{
+            /* font-size: smaller; */
+            display: none;
+        
+        }
+
+        .title-section {
+            font-size: 25px;
+        }
+
+        .signin i {
+            display: block;
+            margin-top: 10px;
+            font-size: 30px;
+            color:white;
+          }
+
+
+    }
+
+    @media (max-width:400px) {
+        .title-section {
+            font-size: 20px;
+
+        }
+        .signin i {
+            font-size: 20px;
+        }
+
+
+    }
+
+  
