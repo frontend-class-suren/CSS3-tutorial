@@ -1,0 +1,131 @@
+* {
+    margin:0;
+    padding:0;
+}
+html , body {
+    height:100vh;
+    width:100vw;
+}
+
+header {
+
+    font-family: 'Poppins';
+    width:100%;
+    height:100vh;
+    background-color:rgba(130, 132, 133, 0.6);
+    background-image: url("https://www.solidbackgrounds.com/images/1920x1080/1920x1080-true-blue-solid-color-background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+    
+    
+}
+
+.navigation-bar {
+    margin-right: 50px;
+    padding-top: 10px;
+    display:flex;
+    /* flex-direction: row; */
+    justify-content: right;
+}
+
+.nav-header {
+    margin:14px 40px;
+}
+
+.nav-header ul {
+    display: flex;
+}
+
+.nav-header a{
+    font-size: 15px;
+    font-weight: 300;
+    margin:0px 10px;
+    /* border-radius: 5px; */
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding:5px 10px;
+    transition:color 0.5s;
+
+}
+
+.nav-header a:hover {
+    color: #000000;
+    transition:color 0.5s;
+
+}
+
+.nav-header a:active {
+    color: #f1e8e8;
+  }
+
+
+.nav-header li {
+
+    list-style: none;
+}
+
+.header-content{
+    margin-top: 8%;
+    /* padding:20px; */
+    font-weight: 0;
+    color:white;
+    text-align: center;
+  }
+
+.content {
+        margin-top: 3%;
+        /* padding:20px; */
+        font-weight: 0;
+        color:white;
+        text-align: center;
+      
+}
+
+button {
+    color:white;
+    border:1px solid white;
+    margin-top: 50px;
+    background-color: transparent;
+    height:50px;
+    width:200px;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+.mobilepart {
+    font-family: 'Gowun Dodum';
+    height:50vh;
+    width:100vw;
+    background-color:lightgray;
+}
+
+.prachar {
+    text-align: center;
+    padding-top:40px;
+}
+
+.content1 {
+    margin-top: 1%;
+    /* padding:20px; */
+    font-weight: 0;
+    color:rgb(41, 38, 38);
+    text-align: center;
+}
+
+.third {
+    width:100%;
+    height:90vh;
+
+}
+
+.prachar2{
+    font-family: 'Gowun Dodum';
+    text-align: center;
+    padding-top:40px;
+}
+
+
+
+    
