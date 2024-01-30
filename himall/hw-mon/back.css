@@ -23,3 +23,36 @@ a {
     color: whitesmoke;
 }
 
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav box-icon {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: .3s ease-in-out;
+}
+
+
+/* Hero Section */
+header {
+    height: 100vh;
+    background: url('nxt2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
