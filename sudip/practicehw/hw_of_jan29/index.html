@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+
+    }
+    header{
+        background-image:url("background.avif");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 550px;
+        color: white;
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .dropdown-content{
+        display: none;
+        color: white;
+        /* color: black; */
+        
+    }
+    /* .dropdown-content a{
+        color: black;
+    } */
+    .dropdown a{
+        color: white;
+        font-size: 18px;
+
+    }
+    .dropdown-content li{
+        list-style: none;
+
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+        text-align: center;
+
+    }
+    .dropdown i{
+        font-size: 10px;
+    }
+    .login a{
+        color: white;
+        background-color: red;
+        padding: 10px;
+        font-size:18px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        /* width: 100%; */
+        margin-left: 2%;
+        margin-right: 2%;
+        height: auto;
+        /* margin-top: 20px; */
+        align-items: center;
+        padding-top: 1%;
+
+
+    }
+    .heading{
+        display: flex;
+        
+    }
+    .heading .dropdown a:hover{
+        color: red;
+    }
+    .dropdown .dropdown-content a:hover{
+        color: orange;
+    }
+    .heading .dropdown{
+        position: relative; 
+        padding: 10px;
+        display: inline-block;
+    }
+    .login a:hover{
+        background-color: white;
+        color: red;
+    }
+
+    .login i{
+        font-size: 25px;
+        display: none;
+    }
+    @media(max-width:920px){
+        .login i{
+            display: block;
+        }
+        .heading{
+            display: none;
+
+        }
+        .login a{
+            display: none;
+        }
+    }
+    h2{
+        font-size: 45px;
+        text-align: center;
+        font-weight: lighter;
+    }
+    .paragraph1{
+        text-align: center;
+        font-size: 20px;
+    }
+    @media(max-width:695px){
+        h2{
+            font-size: 35px;
+        }
+        .paragraph1{
+            font-size: 15px;
+        }
+    }
+.srchbtn{
+    background-color: red;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+}
+.srchbtn:hover{
+    background-color: white;
+    color: red;
+}
+.search{
+    width: 60%;
+    height: 39px;
+
+}
+.srch{
+    display: flex;
+    justify-content: center;
+}
+.h3{
+    font-size: 35px;
+    text-align: center;
+}
+.paragraph2{
+    text-align: center;
+    font-size: 15px;
+    color:rgb(104, 89, 89);
+}
+.emailsms{
+    border: 2px solid blue;
+    width: 12%;
+    margin-left: 4%;
+    padding: 5px;
+}
+.emailsms p{
+    font-size: 13px;
+    color: blue;
+    
+}
+.emailsms p i{
+    color: blue;
+}
+@media(max-width:1364px){
+    .emailsms{
+        padding: 2px;
+        width: 8%;
+    }
+    .emailsms p{
+    font-size: 8px;
+
+    
+}
+}
+.box1{
+    border: 2px solid black;
+    width: 280px;
+    height: 320px;
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    
+}
+.boxs2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+.boxxs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+.boxxs2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+.boxxs .box1, .boxxs2 .box1{
+    background-color: white;
+}
+.body2{
+    background-color: aliceblue;
+}
+.body2 h2{
+    font-size: 40px;
+    text-align: center;
+}
+.body2 p{
+    font-size: 20px;
+    text-align: center;
+}
+.line{
+    border-bottom: 2px solid black;
+    width: 85%;
+    margin-top: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+</style>
+<body>
+<header>
+    <nav>
+        <h1 style="font-weight: lighter;"><span style="font-weight:bold;">Job</span>Secure</h1>
+        <div class="heading">
+            <div class="dropdown">
+                <a href="">Browse Jobs <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    
+                    <li> <a href="#">k</a></li>
+                    <li> <a href="">lekhne</a></li>
+                    <li><a href="">thaha</a></li>
+                    <li><a href="">xaina</a></li>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="">Employers <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    
+                    <li> <a href="#">k</a></li>
+                    <li> <a href="">lekhne</a></li>
+                    <li><a href="">thaha</a></li>
+                    <li><a href="">xaina</a></li>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="">Candidates <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    
+                    <li> <a href="#">k</a></li>
+                    <li> <a href="">lekhne</a></li>
+                    <li><a href="">thaha</a></li>
+                    <li><a href="">xaina</a></li>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="">Products <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    
+                    <li> <a href="#">k</a></li>
+                    <li> <a href="">lekhne</a></li>
+                    <li><a href="">thaha</a></li>
+                    <li><a href="">xaina</a></li>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="">News <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    
+                    <li> <a href="#">k</a></li>
+                    <li> <a href="">lekhne</a></li>
+                    <li><a href="">thaha</a></li>
+                    <li><a href="">xaina</a></li>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    
+                    <li> <a href="#">k</a></li>
+                    <li> <a href="">lekhne</a></li>
+                    <li><a href="">thaha</a></li>
+                    <li><a href="">xaina</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="login">
+            <a href="">SIGN IN</a><i class="fa-solid fa-bars"></i>
+        </div>
+        
+    </nav>
+<br><br><br><br><br><br>
+<h2>Meeting specific employement needs you' <br>ve always wanted</h2>
+<p class="paragraph1">Each month, more than 7 million jobseekers turn to website in their search for <br> work, making over 160,000 applications every day.</p>
+<br><br><br>
+<div class="srch">
+    <input class="search" type"search" placeholder="search here"><a href="" class="srchbtn">Find Job</a>
+</div>
+</header><br><br>
+<section class="body1">
+    <p class="h3">Find a Job you love</p><br>
+    <p class="paragraph2">Each month, more than 7 million jobseekers turn to website in their search for work</p><br>
+    <div class="emailsms"><p><i class="fa-solid fa-envelope"></i> Email Me Jobs Like These</p></div>
+</section><br>
+<section class="boxes">
+    <div class="boxs">
+        <div class="box1"></div>
+        <div class="box1"></div>
+       <div class="box1"></div>
+    </div>
+    <div class="boxs2">
+        <div class="box1"></div>
+        <div class="box1"></div>
+       <div class="box1"></div>
+    </div>
+</section><br><br><br><br><br>
+<section class="body2"><br><br><br>
+    <h2>Find a job you love with the UK's #1 job site</h2><br>
+    <p>Each month, more than 7 million jobseekers turn to website in their search for work</p><br>
+    <div class="boxxes">
+        <div class="boxxs">
+            <div class="box1">
+                <div class="line"></div>
+            </div>
+            <div class="box1">
+                <div class="line"></div>
+            </div>
+            <div class="box1">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="boxxs2">
+            <div class="box1">
+                <div class="line"></div>
+            </div>
+            <div class="box1">
+                <div class="line"></div>
+            </div>
+            <div class="box1">
+                <div class="line"></div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+</body>
+</html>
