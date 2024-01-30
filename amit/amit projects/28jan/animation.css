@@ -12,17 +12,28 @@ margin-top: 300px;
 
 
 button {
+<<<<<<< HEAD
     
+=======
+>>>>>>> 6e9b17229d1203ffe0610e94866a64fd7f4c256a
     background: transparent;
     color: rgb(255, 145, 0);
     font-size: 17px;
     text-transform: uppercase;
+<<<<<<< HEAD
     font-weight: 600;
     border: none;
     padding: 20px 30px;
     perspective: 15rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);
+=======
+    /* font-weight: 600; */
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308); */
+>>>>>>> 6e9b17229d1203ffe0610e94866a64fd7f4c256a
   }
   
   button::before {

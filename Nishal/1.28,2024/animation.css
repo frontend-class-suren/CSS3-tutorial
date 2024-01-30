@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body, html {
     margin: 0;
     padding: 0;
@@ -99,3 +100,42 @@ body, html {
     }
   }
       
+=======
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.game-area {
+  border: 2px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.snake-head {
+  background-color: green;
+}
+
+.snake-body {
+  background-color: lightgreen;
+}
+
+.food {
+  background-color: red;
+}
+>>>>>>> 6e9b17229d1203ffe0610e94866a64fd7f4c256a

@@ -30,8 +30,19 @@ html , body {
     background-color: red;
     position: relative;
     animation-name: example;
+<<<<<<< HEAD
     animation-duration: 1s;
     animation-iteration-count: infinite;
+=======
+<<<<<<< HEAD
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+=======
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+>>>>>>> 1add6394fb89050f610d87e1ff5fd3e8ae8a6910
+>>>>>>> 6e9b17229d1203ffe0610e94866a64fd7f4c256a
   }
   
   @keyframes example {

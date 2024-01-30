@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+/* Base Styling */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+html, body{
+    width: 100vw;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    /* 1.6*10 = 16px */
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav box-icon {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: .3s ease-in-out;
+}
+
+
+/* Hero Section */
+header {
+    height: 100vh;
+    background: url('nxt2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
