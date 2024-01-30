@@ -80,6 +80,7 @@ header {
 }
 
 .header-content{
+    
     /* text-wrap: wrap; */
     margin-top: 8%;
     padding:20px;
@@ -131,25 +132,88 @@ button {
     margin: 1%;
     /* padding:20px; */
     font-weight: 0;
-    color:rgb(41, 38, 38);
+    color:rgb(255, 255, 255);
     text-align: center;
 }
 
 .third {
     width:100%;
-    height:90vh;
+    /* height:90vh; */
 
 }
 
 .prachar2{
     font-family: 'Gowun Dodum';
     text-align: center;
-    padding-top:40px;
+    padding:40px;
 }
 
 .bar i {
     display: none;
 }
+
+
+.boxes1 {
+    font-family: 'Gowun Dodum';
+    display:flex;
+    /* flex-wrap: wrap; */
+    gap:20px;
+    /* flex-direction: column; */
+}
+
+.box{
+    padding:10px;
+
+}
+
+.boxes2 {
+    font-family: 'Gowun Dodum';
+
+    display:flex;
+    /* flex-wrap: wrap; */
+    gap:20px;
+    /* flex-direction: column; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -165,6 +229,20 @@ button {
     height:30px;
     font-size: 10px;
    }
+
+   .boxes1 {
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .boxes2 {
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .box {
+    text-align: center;
+   }
+
 
 }
 
