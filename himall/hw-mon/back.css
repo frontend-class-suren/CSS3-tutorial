@@ -56,3 +56,10 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+/* About Section */
+
+.about-row {
+    flex-basis: 30%;
+    padding: 1.3rem;
+}
