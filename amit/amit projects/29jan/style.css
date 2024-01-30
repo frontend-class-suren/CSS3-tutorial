@@ -11,7 +11,7 @@ header {
 
     font-family: 'Poppins';
     width:100%;
-    height:100vh;
+    height:80vh;
     background-color:rgba(130, 132, 133, 0.6);
     background-image: url("https://images.pexels.com/photos/3783725/pexels-photo-3783725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@ button {
     height: 38px;
     /* border: 1px solid #000000; */
     border:none;
-    /* border-radius: 45px; */
+    border-radius:5px;
     transition: all 0.3s;
     cursor: pointer;
     color:white;
@@ -113,7 +113,7 @@ button:hover {
   }
 
   .header-content{
-    margin-top: 5%;
+    margin-top: 8%;
     font-weight: 0;
     color:white;
     text-align: center;
@@ -123,6 +123,23 @@ button:hover {
     font-size: 50px;
   }
 
+  .navigation-bar2 {
+    gap:2px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-items {
+    border:none;
+    border-radius: 5px;
+    height:38px;
+    width:58vw;
+    font-size: large;
+    padding-left: 20px;
+  }
+
+  
 
 
   @media (max-width:1090px) {
