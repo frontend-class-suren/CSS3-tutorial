@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Animation</title>
+  <style>
+    @keyframes slide {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(200px);
+      }
+    }
+
+    .animated-element {
+      width: 100px;
+      height: 100px;
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-top: 300px;
+      background-color: #cac719;
+      animation: slide 2s ease-in-out infinite alternate;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="animated-element"></div>
+
+</body>
+</html>

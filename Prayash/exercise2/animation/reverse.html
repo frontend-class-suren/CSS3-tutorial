@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Define the keyframes for the animation */
+    @keyframes myAnimation {
+      from {
+        transform: translateX(800px);
+      }
+      to {
+        transform: translateX(500px);
+      }
+    }
+
+    /* Apply the animation to an element */
+    .animated-element {
+      width: 50px;
+      height: 50px;
+      background-color: rgb(29, 13, 3);
+      animation: myAnimation 2s ease-in-out infinite alternate-reverse;
+      /* The 'alternate-reverse' value makes the animation reverse on each iteration */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HTML element with the animation -->
+  <div class="animated-element"></div>
+
+</body>
+</html>
