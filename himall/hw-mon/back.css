@@ -62,4 +62,7 @@ header {
 .about-row {
     flex-basis: 30%;
     padding: 1.3rem;
+    text-align: center;
+    color: black;
+    background-color: #dcdcdc;
 }
