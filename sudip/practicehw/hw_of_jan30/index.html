@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    header{
+        width: 100%;
+        height: 750px;
+        background-image: url(./backgroung.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    nav li{
+        list-style: none;
+    }
+    nav{
+        display: flex;
+        justify-content: right;
+        margin-right: 4%;
+        position: sticky;
+    }
+    nav li{
+        padding: 20px;
+        
+    }
+    nav li a {
+        color: white;
+        font-size: 20px;
+    }
+    header h1{
+        color: white;
+        text-align: center;
+        margin-top: 15%;
+        font-size: 50px;
+
+    }
+    header p{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+    nav a:hover{
+        color: red;
+    }
+    /* .btn1{
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        width: 10%;
+        border-radius: 50px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+    .btn1 a{
+        color: white;
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        width: 10%;
+        border-radius: 50px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+
+    }
+    .threeline{
+        display: none;
+        padding-top: 2%;
+    }
+    .threeline i{
+        font-size: 50px;
+        color: white;
+    }
+    .btn1 a:hover{
+        color: blue;
+        background-color: white;
+    }
+    @media(max-width:611px){
+        nav li{
+            display: none;
+        }
+        .threeline{
+            display: block;
+        }
+
+    }
+    @media(max-width:764px){
+        header h1{
+            font-size: 40px;
+        }
+        header p{
+            font-size: 15px;
+        }
+        .btn1 a{
+            font-size: 8px;
+        }
+    }
+    @media(max-width:611px){
+        .btn1 a{
+            font-size: 5px;
+            padding: 2px;
+        }
+    }
+    @media(max-width:385px){
+        .btn1 a{
+            font-size: 4px;
+        }
+    }
+    .container2{
+        background-color: aliceblue;
+        width: 100%;
+        height: auto;
+    }
+    .container2 h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .container2 p{
+        text-align: center;
+        font-size: 25px;
+    }
+    .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid aliceblue; */
+}
+
+.image img {
+    max-width: 40%; /* Ensure the image doesn't exceed the container width */
+    max-height: 30%; /* Ensure the image doesn't exceed the container height */
+}
+.container3 h1{
+    text-align: center;
+    font-size: 35px;
+}
+.container3 p{
+    text-align: center;
+    font-size: 25px;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <li><a href="">About</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Pages <i class="fa-solid fa-chevron-down"></i></a></li>
+            <li><a href="">FeedBack</a></li>
+            <li><a href="">Compare</a></li>
+            <div class="threeline"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+       
+        <h1>Elisa is a fully responsive multipurpose <br> landing page template</h1> <br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam Lorem, ipsum dolor. nam debitis omnis repellat dicta. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ad repudiandae fugiat. Lorem, ipsum. <br> Lorem ipsum, dolor sit amet Lorem, ipsum. consectetur adipisicing elit. Eos.</p>
+        <br><br>
+        <div class="btn1"><a href="">FIND OUT MORE</a></div>
+    </header>
+    <section class="container2">
+        <br><br><br>
+        <h1>Build your new perfect landing, the way you want it, <br> with our coolest template!</h1>
+        <p>We have clean and beautiful design and tons of components you'll love. <br> And we have code that you'll fell in love. </p>
+        <div class="image">
+        <img src="./iphone.png" alt="img">
+        </div>
+    </section>
+    <section class="container3">
+        <br><br>
+        <h1>Features</h1>
+        <p>Tell about your product's features. Go ahead and use icons along with description.</p><br><br>
+    </section>
+</body>
+</html>
