@@ -36,6 +36,7 @@ header {
   
 
 .navigation-bar {
+    position:sticky;
     margin-right: 50px;
     padding-top: 10px;
     display:flex;
@@ -154,7 +155,7 @@ button {
 
 
 .boxes1 {
-    font-family: 'Gowun Dodum';
+    /* font-family: 'Gowun Dodum'; */
     display:flex;
     /* flex-wrap: wrap; */
     gap:20px;
@@ -175,8 +176,73 @@ button {
     /* flex-direction: column; */
 }
 
+.fourth {
+    /* margin:25px; */
+    margin:auto;
+    width:80%;
+    /* height:500px; */
+    /* padding:30px; */
+    display:flex;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: space-around;
+    font-family: 'Gowun Dodum';
+
+    
+    
+    gap:50px;
+}
+
+.left {
+    padding-top: 100px;
+    width:50%;
+    /* flex:1; */
+}
 
 
+
+.right  {
+    /* padding:30px; */
+/* height:100%; */
+/* flex:1; */
+width:50%;
+}
+
+.right img {
+    width:40vw;
+    height:60vh;
+    /* aspect-ratio: ; */
+    
+}
+
+footer {
+    padding: 50px 0px;
+    font-family: 'Gowun Dodum';
+    /* gap:20px; */
+    background-color: rgb(53, 53, 55);
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    
+}
+
+.navv {
+    display: flex;
+    flex-direction: column;
+    /* top:5px; */
+    gap:10px;
+    justify-content: start;
+    
+}
+
+.navv ul{
+    /* padding:8px 0px; */
+    list-style: none;
+}
+
+.navv li {
+    color:gainsboro;
+    padding:8px 0px;
+}
 
 
 
@@ -243,6 +309,23 @@ button {
     text-align: center;
    }
 
+   .fourth {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .left, .right {
+    width:100%;
+    object-fit: cover;
+
+   }
+   .right img {
+    height:50vh;
+    width:100%;
+    
+   }
+
 
 }
 
@@ -250,6 +333,12 @@ button {
    .mobilepart {
     text-align: center;
    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 @media (max-width:650px) {
